@@ -1,0 +1,7 @@
+.svg-container{
+    overflow: hidden;
+    margin: 1rem 0rem;
+}
+.svg-container svg{
+    width: 102%;
+}

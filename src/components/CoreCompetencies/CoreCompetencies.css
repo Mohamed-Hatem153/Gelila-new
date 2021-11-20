@@ -1,0 +1,102 @@
+.core-competencies {
+  /* background: url('../../Assets/images/core background2.jpg') top center/cover no-repeat; */
+  /* padding: 100px 0; */
+  position: relative;
+  padding-bottom: 70px;
+}
+.core-competencies .grid{
+  display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+}
+.core-competencies .container .grid {
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.core-competencies .container {
+  width: 90%;
+  margin: auto;
+  max-height: 100%;
+}
+.core-competencies-title {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.core-competencies-title p {
+  color: var(--green-color);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+.core-competencies-title h3 {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 2rem;
+}
+.Competency{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.core-text{
+  font-family: var(--primary-font-family);
+  padding-left: 15px;
+  width: 74%;
+}
+.core-text2{
+  padding-right: 15px;
+  width: 74%;
+}
+.core-text h3{
+  font-size: 17px;
+    color: #525252;
+    line-height: 22px;
+    font-weight: 700;
+    margin-top: 0;
+    /* text-align: right; */
+    background: url('../../Assets//images/core-title-line.png') bottom left no-repeat;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    
+}
+.core-text p{
+  font-weight: 500;
+}
+.core-text2 h3{
+  font-size: 17px;
+    color: #525252;
+    line-height: 22px;
+    font-weight: 700;
+    margin-top: 0;
+    text-align: right;
+    background: url('../../Assets//images/core-title-line.png') bottom right no-repeat;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+}
+.core-text h3{
+  color: #f1592a;
+}
+.core-img{
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 16%;
+}
+.core-img img{
+  max-width: 100%;
+}
+.gelilacore img{
+  max-width: 100%;
+}
+@media (max-width: 1130px) {
+  .core-competencies .container .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+  
+}

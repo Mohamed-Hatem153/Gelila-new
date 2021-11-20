@@ -1,0 +1,86 @@
+.mymodal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 4px;
+  outline: none;
+  background: #fff;
+  padding: 70px 0;
+  border: 2px solid #f1592a;
+  width: 800px;
+}
+
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+.modal-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.modal-content .modal-details {
+  margin: auto;
+  margin-left: 5%;
+}
+.modal-content .modal-details h2 {
+  text-align: left;
+  font-weight: 600;
+  color: #525252;
+  font-family: var(--primary-font-family);
+  padding: 10px 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+.modal-content .modal-details h3 {
+  color: #3d854f;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 0 0 10px;
+}
+.modal-content .modal-details p {
+  color: #525252;
+  font-size: 14px;
+  text-align: justify;
+  font-weight: 400;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 10px;
+}
+.modal-content .modal-img {
+  margin: auto;
+}
+.mymodal button {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  display: block;
+  border: 0px;
+  border-radius: 50%;
+  background: #333;
+  line-height: 2;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+}
