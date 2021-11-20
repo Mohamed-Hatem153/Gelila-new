@@ -1,7 +1,8 @@
-import React from 'react;'
+import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import leaf from "../../Assets/images/leaf.png";
 
 import { certificatesImages } from './certificates';
 
@@ -40,10 +41,17 @@ const Certifications = ({ borderNone }) => {
   };
 
   return (
-    <section className={`${'py-5 section-bg'} ${borderNone ? '' : 'brand'}`}>
-      <div className="container">
+    <section className={`${'section-bg'} ${borderNone ? '' : 'brand'}`}>
+      <div className="container grid">
+        <div className="certification-title span-col-2">
+          <p>our certification</p>
+          <h3>International certifications</h3>
+          <div>
+            <img src={leaf} alt="leaf" />
+          </div>
+        </div>
         {/* Slider */}
-        <div className="slider-container ">
+        <div className="slider-container span-col-2">
           <Slider {...settings}>
             {certificatesImages.map((brand) => (
               <div key={brand.id} className="slick-slide">
@@ -56,7 +64,10 @@ const Certifications = ({ borderNone }) => {
             ))}
           </Slider>
         </div>
+        <div>One</div>
+      <div>Two</div>
       </div>
+      
     </section>
   );
 };

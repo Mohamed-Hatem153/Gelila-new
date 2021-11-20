@@ -4,7 +4,7 @@ Link {
 }
 .pg-footer {
   font-family: var(--primary-font-family);
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 h2 {
   padding-bottom: 15px;
@@ -23,7 +23,7 @@ h2 {
   width: 100%;
 }
 .footer-wave-path {
-  fill: #fff;
+  fill: var(--primary-color);
 }
 
 .footer-content {

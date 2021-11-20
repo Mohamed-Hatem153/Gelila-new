@@ -5,6 +5,7 @@ import CoreCompetencies from '../components/CoreCompetencies/CoreCompetencies'
 import WhyChooseUs from '../components/WhyChooseUs/WhyChooseUs'
 
 import FeaturedProducts from '../components/FeaturedProducts/FeaturedProducts'
+import Certifications from '../components/Certifications/Certification'
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <CoreCompetencies />
             <WhyChooseUs />
             <FeaturedProducts />
+            <Certifications />
         </div>
     )
 }
