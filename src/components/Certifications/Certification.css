@@ -10,7 +10,6 @@
   padding-top: 4rem;
   padding-bottom: 3rem;
 }
-
 .certification-title p {
   color: var(--green-color);
   text-transform: uppercase;
@@ -46,6 +45,7 @@
 
 .slider-container {
   overflow: hidden;
+  margin-bottom: 80px;
 }
 
 .brand {
@@ -53,4 +53,45 @@
 }
 .section-bg {
   background-color: var(--primary-color);
+}
+.certificate-box{
+  background-color: var(--green-color);
+  color: var(--white-color);
+  text-align: center;
+  padding: 2rem 1rem;
+  border-radius: 0.3rem;
+  max-width: 450px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.certificate-box h3{
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  margin: 0 1rem;
+}
+.certificate-box img{
+  display: inline-block;
+}
+@media (min-width: 768px) {
+  .certificate-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+}
+@media (min-width: 992px) {
+  .certificate-box h3{
+  font-size: 1.6rem;
+  }
+}
+@media (max-width: 799px){
+  .section-bg .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+  .section-bg .container .span-col-2 {
+    grid-column: span 1 / auto;
+  }
 }

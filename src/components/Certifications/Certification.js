@@ -1,12 +1,13 @@
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import leaf from "../../Assets/images/leaf.png";
+import Fade from "react-reveal/Fade";
 
-import { certificatesImages } from './certificates';
+import { certificatesImages } from "./certificates";
 
-import './Certification.css';
+import "./Certification.css";
 
 const Certifications = ({ borderNone }) => {
   const settings = {
@@ -41,15 +42,17 @@ const Certifications = ({ borderNone }) => {
   };
 
   return (
-    <section className={`${'section-bg'} ${borderNone ? '' : 'brand'}`}>
+    <section className={`${"section-bg"} ${borderNone ? "" : "brand"}`}>
       <div className="container grid">
-        <div className="certification-title span-col-2">
-          <p>our certification</p>
-          <h3>International certifications</h3>
-          <div>
-            <img src={leaf} alt="leaf" />
+        <Fade left>
+          <div className="certification-title span-col-2">
+            <p>our certification</p>
+            <h3>International certifications</h3>
+            <div>
+              <img src={leaf} alt="leaf" />
+            </div>
           </div>
-        </div>
+        </Fade>
         {/* Slider */}
         <div className="slider-container span-col-2">
           <Slider {...settings}>
@@ -64,10 +67,21 @@ const Certifications = ({ borderNone }) => {
             ))}
           </Slider>
         </div>
-        <div>One</div>
-      <div>Two</div>
+        <Fade left>
+          <div className="certificate-box">
+            <img src={leaf} alt="leaf" />
+            <h3>We Sale Best Agriculture Products</h3>
+            <img src={leaf} alt="leaf" />
+          </div>
+        </Fade>
+        <Fade right>
+          <div className="certificate-box">
+            <img src={leaf} alt="leaf" />
+            <h3>We’ve 40 years experience in field</h3>
+            <img src={leaf} alt="leaf" />
+          </div>
+        </Fade>
       </div>
-      
     </section>
   );
 };
