@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaEye } from "react-icons/fa";
 import ProductModal from "../Modal/Modal";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
+import { AiOutlineClose } from "react-icons/ai";
 import leaf from "../../Assets/images/leaf.png";
 import "./FeaturedProducts.css";
 import orange from "../../Assets/products/Orange-Navel.png";
@@ -42,10 +43,16 @@ const Featuredproducts = [
 
 const FeaturedProducts = () => {
   const [isOpen, setIsOpen] = useState(false);
-  function toggleModal() {
-    setIsOpen(!isOpen);
-  }
-  const [modalOpen, setModalOpen] = useState(false);
+  // function toggleModal() {
+  //   setIsOpen(!isOpen);
+  // }
+  // const [modalOpen, setModalOpen] = useState(false);
+  const [popupContent, setPopupContent] = useState([]);
+  const [popupToggle, setPopupToggle] = useState(false);
+  const changeContent = (product) => {
+    setPopupContent([product]);
+    setPopupToggle(!popupToggle);
+  };
   return (
     <div className="featured-products">
       <div className="container grid">
@@ -58,78 +65,50 @@ const FeaturedProducts = () => {
         </div>
         <div className="our-featured-products">
           <div className="grid">
-            {/*Featuredproducts.map((product) => {
+            {Featuredproducts.map((product) => {
               return (
-                <div key={product.id} className="product" onClick={toggleModal}>
+                <Fade bottom>
+                <div
+                  key={product.id}
+                  className="product"
+                  onClick={() => changeContent(product)}
+                >
                   <img src={product.image} alt={product.name} />
                   <h4>
                     {product.name} <FaEye className="product-eye" />
                   </h4>
-                  <ProductModal isOpen={isOpen} toggleModal={toggleModal} product={product}/>
                 </div>
+                </Fade>
               );
-            })*/}
-            <Fade left>
-            <div className="product" onClick={toggleModal}>
-              <img src={orange} alt="Orange" />
-              <h4>
-                Orange <FaEye className="product-eye" />
-              </h4>
-              <ProductModal
-                isOpen={isOpen}
-                toggleModal={toggleModal}
-                img={orange}
-                title="Orange"
-                details="The Valencia Orange is a sweet orange. Helps keep blood pressure under check and lowers cholestrol."
-              />
-            </div>
-            </Fade>
-            <Fade top>
-            <div className="product" onClick={toggleModal}>
-              <img src={mandarin} alt="Mandarin" />
-              <h4>
-                Mandarin <FaEye className="product-eye" />
-              </h4>
-              <ProductModal
-                isOpen={isOpen}
-                toggleModal={toggleModal}
-                img={mandarin}
-                title="Mandarin"
-                details="The Valencia Orange is a sweet orange. Helps keep blood pressure under check and lowers cholestrol."
-              />
-            </div>
-            </Fade>
-            <Fade bottom>
-            <div className="product" onClick={toggleModal}>
-              <img src={lemon} alt="Lemon" />
-              <h4>
-                Lemon <FaEye className="product-eye" />
-              </h4>
-              <ProductModal
-                isOpen={isOpen}
-                toggleModal={toggleModal}
-                img={lemon}
-                title="Lemon"
-                details="The Valencia Orange is a sweet orange. Helps keep blood pressure under check and lowers cholestrol."
-              />
-            </div>
-            </Fade>
-            <Fade right>
-            <div className="product" onClick={toggleModal}>
-              <img src={mango} alt="Mango" />
-              <h4>
-                Mango <FaEye className="product-eye" />
-              </h4>
-              <ProductModal
-                isOpen={isOpen}
-                toggleModal={toggleModal}
-                img={mango}
-                title="Mango"
-                details="The Valencia Orange is a sweet orange. Helps keep blood pressure under check and lowers cholestrol."
-              />
-            </div>
-            </Fade>
+            })}
           </div>
+          {popupToggle && (
+            <div className="pop-up-container" onClick={changeContent}>
+              <div className="pop-up-body" onClick={(e) => e.stopPropagation()}>
+                <div className="pop-up-header">
+                  <button onClick={changeContent}>
+                    <AiOutlineClose />
+                  </button>
+                </div>
+                <div className="pop-up-content">
+                  {popupContent.map((pop) => {
+                    return (
+                      <div className="pop-up-card">
+                        <div className="pop-up-details">
+                          <h2>100% fresh. Sourced from Egypt.</h2>
+                          <h3>Benefits:</h3>
+                          <p>{pop.details}</p>
+                        </div>
+                        <div className="pop-up-img">
+                          <img src={pop.image} alt={pop.title} />
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

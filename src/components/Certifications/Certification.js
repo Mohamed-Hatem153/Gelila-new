@@ -77,7 +77,7 @@ const Certifications = ({ borderNone }) => {
         <Fade right>
           <div className="certificate-box">
             <img src={leaf} alt="leaf" />
-            <h3>We’ve 40 years experience in field</h3>
+            <h3>We’ve +75 years experience in field</h3>
             <img src={leaf} alt="leaf" />
           </div>
         </Fade>

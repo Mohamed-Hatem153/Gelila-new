@@ -1,10 +1,10 @@
-// import Navbar from "./components/Navbar/Navbar";
 import NewNavbar from './components/NewNavbar/NewNavbar'
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Services from './Pages/Services';
-import Footer from './components/Footer/Footer'
+import Products from './Pages/Products';
+import Footer from './components/Footer/Footer';
 
 import {
   BrowserRouter,
@@ -21,6 +21,7 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/services' element={<Services/>}/>
+          <Route path='/products' element={<Products/>} />
         </Routes>
         <Footer />
       </BrowserRouter>
