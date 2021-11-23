@@ -1,0 +1,22 @@
+.our-products-header {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  background: url("../../Assets/images/our-products4.jpg") top center/cover
+    no-repeat;
+  margin-top: 100px;
+  height: 70vh;
+}
+.our-products-header h3 {
+  font-family: var(--primary-font-family);
+  color: var(--green-color);
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.our-products-header img{
+  width: 100px;
+  height: 30px;
+}

@@ -8,12 +8,6 @@ import Fade from "react-reveal/Fade";
 import CountUp from "react-countup";
 import "./WhyChooseUs.css";
 
-const easingFn = (t, b, c, d) => {
-  const ts = (t /= d) * t;
-  const tc = ts * t;
-  return b + c * (tc + -3 * ts + 3 * t);
-};
-
 const WhyChooseUs = () => {
   return (
     <div className="whychooseus">

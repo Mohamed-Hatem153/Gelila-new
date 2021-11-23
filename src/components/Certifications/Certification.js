@@ -46,7 +46,7 @@ const Certifications = ({ borderNone }) => {
       <div className="container grid">
         <Fade left>
           <div className="certification-title span-col-2">
-            <p>our certification</p>
+            <p>our certifications</p>
             <h3>International certifications</h3>
             <div>
               <img src={leaf} alt="leaf" />

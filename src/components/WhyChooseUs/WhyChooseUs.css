@@ -1,5 +1,5 @@
 .whychooseus {
-  background: url("../../Assets/images/whychooseusback.jpg") top center/cover
+  background: url("../../Assets/images/green.jpg") top center/cover
     no-repeat;
 }
 .whychooseus .container {
@@ -10,7 +10,7 @@
 .whychooseus-title {
   text-align: center;
   padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 }
 .whychooseus-title p {
   color: var(--green-color);
@@ -88,7 +88,7 @@
 }
 
 .item:hover {
-  background: #f1592a;
+  background: var(--green-color);
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.5s ease 0;
   transition: all 0.5s ease 0;

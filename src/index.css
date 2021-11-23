@@ -1,36 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Barlow:wght@200;300;500;600&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Barlow:wght@200;300;500;600&display=swap");
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-li{
+li {
   list-style: none;
 }
-        :root {
-          --primary-color: #f5f0e9;
-          --white-color: #ffffff;
-          --green-color: #5b8c51;
-          --grey-color: #878986;
-          --black-color1: #000000;
-          --black-color2: #404a3d;
-          --blue-color: #5138ee;
-          --yellow-color: #eddd5e;
-          --border-color: #f6f6f6;
-          --border-color2: #e5e5e5;
-          --primary-font-family: 'Barlow', sans-serif;
-          --secondary-font-family: 'Amatic SC', cursive;
-        }
+:root {
+  --primary-color: #f5f0e9;
+  --white-color: #ffffff;
+  --green-color: #5b8c51;
+  --grey-color: #878986;
+  --black-color1: #000000;
+  --black-color2: #404a3d;
+  --blue-color: #5138ee;
+  --yellow-color: #eddd5e;
+  --border-color: #f6f6f6;
+  --border-color2: #e5e5e5;
+  --primary-font-family: "Barlow", sans-serif;
+  --secondary-font-family: "Amatic SC", cursive;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f1592a; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ee400b; 
+}

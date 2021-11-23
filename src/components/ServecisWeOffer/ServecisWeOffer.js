@@ -2,10 +2,10 @@ import React from "react";
 import leaf from "../../Assets/images/leaf.png";
 import "./ServecisWeOffer.css";
 import Fade from "react-reveal/Fade";
-import featureOne from "../../Assets/images/service-1-img-1.jpg";
+import featureOne from "../../Assets/images/Webp.net-resizeimage (2).jpg";
 import featureTwo from "../../Assets/images/service-1-img-2.jpg";
 import featureThree from "../../Assets/images/service-1-img-3.jpg";
-
+import featureFour from "../../Assets/images/Webp.net-resizeimage (3).jpg";
 const ServecisWeOffer = () => {
   return (
     <div className="services-we-offer">
@@ -51,7 +51,7 @@ const ServecisWeOffer = () => {
                 </div>
               </div>
             </Fade>
-            <Fade top>
+            <Fade left>
               <div className="feature">
                 <div className="feature-details">
                   <div className="feature-header">
@@ -68,7 +68,7 @@ const ServecisWeOffer = () => {
                 </div>
               </div>
             </Fade>
-            <Fade bottom>
+            <Fade right>
               <div className="feature">
                 <div className="feature-details">
                   <div className="feature-header">
@@ -97,7 +97,7 @@ const ServecisWeOffer = () => {
                     </p>
                   </div>
                   <div className="feature-image">
-                    <img src={featureOne} alt="featureOne" />
+                    <img src={featureFour} alt="featureOne" />
                   </div>
                 </div>
               </div>
