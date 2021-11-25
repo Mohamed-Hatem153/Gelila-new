@@ -1,0 +1,240 @@
+.about-us-details {
+  background-color: var(--primary-color);
+}
+.about-us-details .grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 0px;
+}
+.about-us-small-text,
+.vision,
+.mission,
+.goals {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px;
+}
+.about-us-details-title {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.about-us-details-title p {
+  color: var(--green-color);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+.about-us-details-title h3 {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 2rem;
+}
+.about-us-details .we-are-gelila {
+  width: 80%;
+  margin: auto;
+  max-height: 100%;
+  margin-bottom: 70px;
+}
+.about-us-details .we-are-gelila h2 {
+  text-align: center;
+  color: #525252;
+  font-size: 44px;
+  line-height: 46px;
+  text-align: center;
+  margin-top: 0;
+  font-weight: 400;
+}
+.about-us-details .we-are-gelila h2 span {
+  text-align: center;
+  color: #f1592a;
+  font-weight: 500;
+  font-size: 46px;
+}
+.about-us-details .we-are-gelila p {
+  font-size: 18px;
+  text-align: justify;
+  text-align-last: center;
+  line-height: 25px;
+  color: #525252;
+}
+.about-us-details .we-are-gelila span {
+  font-size: 22px;
+  font-weight: 600;
+}
+.about-us-small-text {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  align-items: center;
+  background-color: #fff;
+  height: 395px;
+}
+.about-us-small-text .small-text {
+  padding: 0px 5% 0px 10%;
+  margin-left: 0;
+  background: transparent;
+}
+.about-us-small-text .small-text .gelila-owns {
+  font-size: 20px;
+  line-height: 24px;
+  color: #37ab9c;
+  text-align: justify !important;
+  margin-bottom: 13px;
+}
+.about-us-small-text .small-text span {
+  font-size: 17px;
+  line-height: 24px;
+  color: #f1592a;
+  text-align: justify !important;
+  /* margin-bottom: 13px; */
+}
+.about-us-small-text .small-text .gelila-address {
+  font-size: 15px;
+  line-height: 22px;
+  color: #525252;
+  text-align: justify !important;
+  margin-top: 8px;
+}
+.about-us-small-text .gelila-green-image {
+  background: url("../../Assets/images/Gelila.PNG") no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.about-us-details .mission {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  align-items: center;
+  height: 395px;
+}
+.about-us-details .mission .mission-image {
+  background: url("../../Assets/images/Mission.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.about-us-details .mission .mission-text {
+  padding: 0px 5% 0px 10%;
+  margin-left: 0;
+  background: transparent;
+}
+.about-us-details .mission .mission-text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #f1592a;
+  letter-spacing: 1px;
+  padding: 0px;
+}
+.about-us-details .mission .mission-text p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+  color: #525252;
+  padding-top: 20px;
+}
+.about-us-details .vision {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  align-items: center;
+  background-color: #fff;
+  height: 395px;
+}
+.about-us-details .vision .vision-image {
+  background: url("../../Assets/images/Vision.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.about-us-details .vision .vision-text {
+  padding: 0px 5% 0px 10%;
+  margin-left: 0;
+  background: transparent;
+}
+.about-us-details .vision .vision-text h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #f1592a;
+  letter-spacing: 1px;
+  padding: 0px;
+}
+.about-us-details .vision .vision-text p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+  color: #525252;
+  padding-top: 20px;
+}
+.about-us-details .goals {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  align-items: center;
+  background-color: #fff;
+  height: 395px;
+}
+.about-us-details .goals .goals-image {
+  background: url("../../Assets/images/Goal.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.about-us-details .goals .goals-text {
+  padding: 0px 5% 0px 10%;
+  margin-left: 0;
+  background: transparent;
+}
+.about-us-details .goals .goals-text h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #f1592a;
+  letter-spacing: 1px;
+  padding: 0px;
+}
+.about-us-details .goals .goals-text p {
+  font-size: 18px;
+  text-align: justify;
+  /* text-align-last: center; */
+  line-height: 25px;
+  color: #525252;
+  padding-top: 20px;
+}
+@media (max-width: 1130px) {
+  .about-us-small-text,
+  .vision,
+  .mission,
+  .goals {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0px;
+  }
+  .about-us-small-text .gelila-green-image {
+    /* background-size: contain; */
+    padding-bottom: 185px;
+  }
+  .about-us-small-text {
+    height: 500px;
+  }
+  .about-us-details .mission {
+    height: 500px;
+  }
+  .mission .mission-image {
+    /* background-size: contain; */
+    padding-bottom: 185px;
+  }
+  .about-us-details .vision {
+    height: 500px;
+  }
+  .vision .vision-image {
+    /* background-size: contain; */
+    padding-bottom: 185px;
+  }
+  .about-us-details .goals {
+    height: 500px;
+  }
+  .goals .goals-image {
+    padding-bottom: 185px;
+  }
+}

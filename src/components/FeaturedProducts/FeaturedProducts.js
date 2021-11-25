@@ -5,7 +5,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import leaf from "../../Assets/images/leaf.png";
 import "./FeaturedProducts.css";
 import orange from "../../Assets/products/Orange-Navel.png";
-import mango from "../../Assets/products/Mango-alphonso.png";
+import onionRed from '../../Assets/AllProducts/Onion Red.png'
 import lemon from "../../Assets/products/lemon.png";
 import mandarin from "../../Assets/products/Mandarin.png";
 
@@ -16,7 +16,7 @@ const Featuredproducts = [
     image: orange,
     duration: 'From Dec. to Feb.',
     details:
-      "The Navel Orange is a good orange. Helps keep blood pressure under check and lowers cholestrol.",
+      "Orange is a good Fruit. Helps keep blood pressure under check and lowers cholestrol.",
   },
   {
     id: 2,
@@ -36,11 +36,11 @@ const Featuredproducts = [
   },
   {
     id: 4,
-    name: "Mango Alphonso",
-    image: mango,
-    duration: 'From Apr. to Oct.',
+    name: "Onion Red",
+    image: onionRed,
+    duration: 'From May. to Aug.',
     details:
-      "Also known as 'The King of Fruits,' Alphonso mangoes are rich in flavour and are premium variety of mango. It can be eaten fresh, sliced or pureed and are rich in vitamins.",
+      "Red Onions actually contain less sugar than other types. Red onions are one of the best natural sources of quercetin, a bioflavonoid that is particularly well suited for scavenging free radicals.Aside from its antioxidant properties, quercetin has been found to possess cancer fighting, anti-fungal, anti-bacterial, and anti-inflammatory properties.",
   },
 ];
 

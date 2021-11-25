@@ -1,5 +1,6 @@
 .featured-products {
   background-color: var(--white-color);
+  margin-bottom: 50px;
 }
 .featured-products .grid {
   display: grid;

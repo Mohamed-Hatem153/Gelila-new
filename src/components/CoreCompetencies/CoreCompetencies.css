@@ -4,15 +4,15 @@
   position: relative;
   padding-bottom: 70px;
 }
-.core-competencies .grid{
+.core-competencies .grid {
   display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 10px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
 }
 .core-competencies .container .grid {
   display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
 .core-competencies .container {
   width: 90%;
@@ -35,61 +35,62 @@
   font-weight: 700;
   font-size: 2rem;
 }
-.Competency{
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
+.Competency {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.core-text{
+.core-text {
   font-family: var(--primary-font-family);
   padding-left: 15px;
   width: 74%;
 }
-.core-text2{
+.core-text2 {
   padding-right: 15px;
   width: 74%;
 }
-.core-text h3{
+.core-text h3 {
   font-size: 17px;
-    color: #525252;
-    line-height: 22px;
-    font-weight: 700;
-    margin-top: 0;
-    /* text-align: right; */
-    background: url('../../Assets//images/core-title-line.png') bottom left no-repeat;
-    margin-bottom: 12px;
-    padding-bottom: 12px;
-    
+  color: #525252;
+  line-height: 22px;
+  font-weight: 700;
+  margin-top: 0;
+  /* text-align: right; */
+  background: url("../../Assets//images/core-title-line.png") bottom left
+    no-repeat;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
-.core-text p{
+.core-text p {
   font-weight: 500;
 }
-.core-text2 h3{
+.core-text2 h3 {
   font-size: 17px;
-    color: #525252;
-    line-height: 22px;
-    font-weight: 700;
-    margin-top: 0;
-    text-align: right;
-    background: url('../../Assets//images/core-title-line.png') bottom right no-repeat;
-    margin-bottom: 12px;
-    padding-bottom: 12px;
+  color: #525252;
+  line-height: 22px;
+  font-weight: 700;
+  margin-top: 0;
+  text-align: right;
+  background: url("../../Assets//images/core-title-line.png") bottom right
+    no-repeat;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
-.core-text h3{
+.core-text h3 {
   color: #f1592a;
 }
-.core-img{
+.core-img {
   padding-left: 0px;
   padding-right: 0px;
   width: 16%;
 }
-.core-img img{
+.core-img img {
   max-width: 100%;
 }
-.gelilacore img{
+.gelilacore img {
   max-width: 100%;
 }
 @media (max-width: 1130px) {
@@ -98,5 +99,4 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
   }
-  
 }

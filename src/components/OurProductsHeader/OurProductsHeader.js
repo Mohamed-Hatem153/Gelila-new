@@ -5,13 +5,12 @@ import "./OurProductsHeader.css";
 const OurProductsHeader = () => {
   return (
     <div className="our-products-header">
-    <div>
-    <h3>Our Products</h3>
       <div>
-        <img src={leaf} alt="leaf" />
+        <h3>Our Products</h3>
+        <div>
+          <img src={leaf} alt="leaf" />
+        </div>
       </div>
-    </div>
-      
     </div>
   );
 };

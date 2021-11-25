@@ -2,7 +2,7 @@ import React from "react";
 import "./CoreCompetencies.css";
 import leaf from "../../Assets/images/leaf.png";
 import Fade from 'react-reveal/Fade';
-import Flip from 'react-reveal/Flip';
+import Zoom from 'react-reveal/Zoom';
 import gelilacore from "../../Assets/images/core/gelilacore.png";
 import core1 from "../../Assets/images/core/core-1.png";
 import core2 from "../../Assets/images/core/core-2.png";
@@ -70,11 +70,11 @@ const CoreCompetencies = () => {
             </div>
             </Fade>
           </div>
-          <Flip left>
+          <Zoom>
           <div className="Competency gelilacore">
             <img src={gelilacore} alt="gelila logo" />
           </div>
-          </Flip>
+          </Zoom>
           <div className="grid2">
           <Fade top>
             <div className="Competency">
