@@ -1,0 +1,47 @@
+.quality-policy {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px;
+  background-color: var(--primary-color);
+  margin-top: 50px;
+}
+.quality-policy .quality-policy-text {
+  padding: 20px 5% 30px 10%;
+  margin-left: 0;
+  background: transparent;
+}
+.quality-policy .quality-policy-text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #f1592a;
+  letter-spacing: 1px;
+  padding: 0px;
+}
+.quality-policy .quality-policy-text p {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 25px;
+  color: var(--green-color);
+  padding-top: 20px;
+}
+.quality-policy .quality-policy-text .quality-policy-description {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f1592a;
+}
+.quality-policy-image {
+  background: url("../../Assets/images/quality.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 1130px){
+  .quality-policy {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .quality-policy-image{
+    height: 400px;
+    background-position: top;
+    background-size: cover;
+  }
+}

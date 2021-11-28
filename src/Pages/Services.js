@@ -1,9 +1,17 @@
 import React from 'react'
+import OurServecisHeader from '../components/OurServecisHeader/OurServecisHeader'
+import OurServecisDetails from '../components/OurServecisDetails/OurServecisDetails'
+import OurServecisStrengths from '../components/OurServecisStrengths/OurServecisStrengths'
+import QualityPolicy from '../components/QualityPolicy/QualityPolicy'
+
 
 const Services = () => {
     return (
         <div>
-            Services
+            <OurServecisHeader />
+            <OurServecisStrengths />
+            <QualityPolicy />
+            <OurServecisDetails />
         </div>
     )
 }

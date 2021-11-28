@@ -45,8 +45,9 @@
 
 .banner-user-elem .banner-user-text {
   font-family: var(--secondary-font-family);
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 1rem;
+  font-weight: bold;
 }
 .banner-anim-elem .banner-user-text::selection{
   background-color: #f1592a;

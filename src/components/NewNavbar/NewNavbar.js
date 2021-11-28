@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { ReactComponent as CloseMenu } from "./assets/x.svg";
 import { ReactComponent as MenuIcon } from "./assets/menu.svg";
@@ -67,29 +67,29 @@ const Header = () => {
         <div>
           <ul className={click ? "nav-options active" : "nav-options"}>
             <li className="option" onClick={closeMobileMenu}>
-              <Link to="/" className="link">
+              <NavLink to="/" className="link">
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li className="option" onClick={closeMobileMenu}>
-              <Link to="/products" className="link">
+              <NavLink to="/products" className="link">
                 Products
-              </Link>
+              </NavLink>
             </li>
             <li className="option" onClick={closeMobileMenu}>
-              <Link to="/about" className="link">
+              <NavLink to="/about" className="link">
                 About
-              </Link>
+              </NavLink>
             </li>
             <li className="option" onClick={closeMobileMenu}>
-              <Link to="/services" className="link">
+              <NavLink to="/services" className="link">
                 Services
-              </Link>
+              </NavLink>
             </li>
             <li className="option" onClick={closeMobileMenu}>
-              <Link to="/contact" className="link">
+              <NavLink to="/contact" className="link">
                 Contact
-              </Link>
+              </NavLink>
             </li>
             <div className="social-links-mobile option">
               <li onClick={closeMobileMenu}>

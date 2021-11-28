@@ -1,0 +1,115 @@
+.departments .container {
+  width: 85%;
+  margin: auto;
+  max-height: 100%;
+  /* margin-bottom: 30px; */
+}
+.our-departments-title {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+.our-departments-title h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #f1592a;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-family: var(--primary-font-family);
+}
+.departments .container .department {
+  border-bottom: 1px solid #c8c9c9;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  font-family: var(--primary-font-family);
+}
+.departments .container .department h3 {
+  color: #3d854f;
+  font-size: 24px;
+  line-height: 32px;
+  display: block;
+  margin-bottom: 6px;
+}
+.departments .container .department p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #525252;
+  text-align: justify !important;
+}
+.services-item {
+  background-color: var(--primary-color);
+  padding: 30px 50px;
+  padding-top: 0px;
+}
+.services-item {
+  background-color: var(--primary-color);
+  padding: 30px 50px;
+  padding-top: 0px;
+}
+.services-item p {
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-align: center;
+  font-family: var(--primary-font-family);
+  color: #525252;
+}
+.other-list {
+  display: flex;
+  flex-direction: row;
+  align-items: space-evenly;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  margin-bottom: 30px;
+  position: relative;
+  left: 20px;
+}
+@media screen and (max-width: 1320px) {
+  .other-list {
+    max-height: 350px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .other-list {
+    max-height: unset;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px 40px 0px;
+    left: unset;
+  }
+}
+.other-list p {
+  font-weight: 700;
+  font-size: 13pt;
+  color: #a56631;
+  margin: 0;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  position: relative;
+}
+.other-list p::before {
+  content: "‣";
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  top: 0;
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  font-size: 30pt;
+  color: #4da5b7;
+}
+@media screen and (max-width: 960px) {
+  .other-list p {
+    margin-right: unset;
+  }
+}
+

@@ -5,6 +5,7 @@ import Contact from './Pages/Contact';
 import Services from './Pages/Services';
 import Products from './Pages/Products';
 import Footer from './components/Footer/Footer';
+import BackToTop from './components/BackToTop/BackToTop'
 
 import {
   BrowserRouter,
@@ -15,6 +16,7 @@ import {
 function App() {
   return (
     <BrowserRouter>
+        <BackToTop />
         <NewNavbar />
         <Routes>
           <Route path='/' element={<Home/>}/>

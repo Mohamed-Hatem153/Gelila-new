@@ -1,0 +1,105 @@
+.our-strengths .container {
+  width: 90%;
+  margin: auto;
+  max-height: 100%;
+  margin-bottom: 30px;
+}
+.our-strengths .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.our-strengths .span-col-2 {
+  grid-column: span 2 / auto;
+}
+.our-strengths .container .strengths-intro {
+  background: var(--primary-color);
+  padding: 50px 25px;
+  /* border: 2px solid var(--green-color); */
+  /* border-radius: 30px; */
+  margin-bottom: 30px;
+}
+.our-strengths .container .strengths-intro p {
+  font-size: 17px;
+  line-height: 26px;
+  font-family: var(--primary-font-family);
+}
+.our-strengths-title {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+.our-strengths-title h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #f1592a;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-family: var(--primary-font-family);
+}
+.sub-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.sub-grid .span-col-2 {
+  grid-column: span 2 / auto;
+}
+.strength {
+  background-color: var(--primary-color);
+  border: 2px solid #f1592a;
+  border-radius: 30px;
+  padding: 50px 20px;
+}
+.strength .text {
+  margin: auto;
+}
+.strength .image {
+  margin: auto;
+}
+.strength .image img {
+  width: 115px;
+  animation: icon-rotate 10s ease-in-out infinite;
+}
+.strength .text h4 {
+  padding-bottom: 5px;
+  font-family: var(--primary-font-family);
+  font-size: 22px;
+  color: #f1592a;
+}
+.strength .text p {
+  padding-top: 10px;
+  line-height: 1.5;
+  color: var(--black-color2);
+}
+.right .text {
+  text-align: end;
+}
+.right .text p {
+  text-align: left;
+}
+@keyframes icon-rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+@media (max-width: 1130px){
+  .our-strengths .grid .strength{
+    grid-column: span 2 / auto;
+  }
+}
+@media (max-width: 800px){
+  .sub-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+  }
+  .right .text {
+    text-align: center;
+  }
+}

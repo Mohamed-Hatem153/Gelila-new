@@ -154,7 +154,7 @@
   background: transparent;
 }
 .about-us-details .vision .vision-text h2 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   color: #f1592a;
   letter-spacing: 1px;
@@ -187,7 +187,7 @@
   background: transparent;
 }
 .about-us-details .goals .goals-text h2 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   color: #f1592a;
   letter-spacing: 1px;
@@ -225,16 +225,16 @@
     padding-bottom: 185px;
   }
   .about-us-details .vision {
-    height: 500px;
+    height: 680px;
   }
   .vision .vision-image {
     /* background-size: contain; */
     padding-bottom: 185px;
   }
   .about-us-details .goals {
-    height: 500px;
+    height: 530px;
   }
   .goals .goals-image {
-    padding-bottom: 185px;
+    padding-bottom: 250px;
   }
 }

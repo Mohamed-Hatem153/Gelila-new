@@ -76,6 +76,10 @@
   color: #f1592a;
   --d: 100%;
 }
+.nav-options .option .active {
+  color: #f1592a;
+  --d: 100%;
+}
 
 .mobile-menu {
   display: none;
