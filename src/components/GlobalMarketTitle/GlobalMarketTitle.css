@@ -1,0 +1,17 @@
+.global-market-title {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+.global-market-title p {
+  color: var(--green-color);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+.global-market-title h3 {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 2rem;
+}
