@@ -38,7 +38,7 @@ const AboutUsDetails = () => {
           </p>
         </div>
         <div className="about-us-small-text">
-          <Fade left>
+          <Zoom>
             <div className="small-text">
               <p className="gelila-owns">
                 GELILA owns a number of facilities that support its processes
@@ -50,7 +50,7 @@ const AboutUsDetails = () => {
                 building - Portsaid St. Phone: +2 010939000
               </p>
             </div>
-          </Fade>
+          </Zoom>
           <div className="gelila-green-image"></div>
         </div>
         <div className="mission">
@@ -62,14 +62,14 @@ const AboutUsDetails = () => {
                 <img src={leaf} alt="leaf" />
               </div>
             </Zoom>
-            <Fade right>
+            <Zoom>
               <p>
                 “Employ best-in-class work processes, build strong and
                 sustainable relationships with our suppliers, resellers and
                 consumers, promote healthy and balanced diets and deliver value
                 to our shareholders and country.”
               </p>
-            </Fade>
+            </Zoom>
           </div>
         </div>
         <div className="vision">
@@ -80,7 +80,7 @@ const AboutUsDetails = () => {
                 <img src={leaf} alt="leaf" />
               </div>
             </Zoom>
-            <Fade left>
+            <Zoom>
               <p>
                 “GELILA vision is to delight consumers world-wide through
                 healthy, delicious and nutritious fruits & vegetables , and to
@@ -90,7 +90,7 @@ const AboutUsDetails = () => {
                 lead us to be the most relied on supplier of fresh fruits &
                 Vegetables in the region.”
               </p>
-            </Fade>
+            </Zoom>
           </div>
           <div className="vision-image"></div>
         </div>
@@ -103,7 +103,7 @@ const AboutUsDetails = () => {
                 <img src={leaf} alt="leaf" />
               </div>
             </Zoom>
-            <Fade right>
+            <Zoom>
               <p>
                 “The company goals are to continuously improve the internal
                 efficiency of its operations, thus improving quality of the
@@ -111,7 +111,7 @@ const AboutUsDetails = () => {
                 expanding operations to more areas of the agricultural value
                 chain .”
               </p>
-            </Fade>
+            </Zoom>
           </div>
         </div>
       </div>

@@ -38,7 +38,7 @@
 }
 .flagList__item_country_saudi {
   top: 40%;
-  left: 58%;
+  left: 56%;
 }
 .flagList__flag_country_saudi {
   width: 2rem;
@@ -46,11 +46,11 @@
 }
 .flagList__item_country_india {
   top: 39.5%;
-  left: 68%;
+  left: 64%;
 }
 .flagList__item_country_uae {
   top: 41%;
-  left: 62%;
+  left: 60%;
 }
 .flagList__item_country_china {
   top: 33%;
@@ -58,7 +58,7 @@
 }
 .flagList__item_country_bahrain {
   top: 39%;
-  left: 60%;
+  left: 58%;
 }
 .flagList__item_country_georgia {
   top: 28%;
@@ -98,7 +98,7 @@
 }
 .flagList__item_country_russia {
   top: 15%;
-  left: 73%;
+  left: 68%;
 }
 .flagList__item_country_seychelles {
   top: 59%;
@@ -132,7 +132,6 @@
     background-color: #2b7af3;
     border: 0.1rem solid #fff;
     border-radius: 50%;
-    /* box-shadow: 0 4px 15px rgb(0 0 0 / 20%); */
     box-sizing: content-box;
   }
   .flagList__flag_country_egypt {

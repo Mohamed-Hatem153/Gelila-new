@@ -1,0 +1,16 @@
+.our-gallery-title {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .our-gallery-title p {
+    color: var(--green-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+  }
+  .our-gallery-title h3 {
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 2rem;
+  }
