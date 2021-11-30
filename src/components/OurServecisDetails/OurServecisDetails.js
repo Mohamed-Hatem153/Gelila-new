@@ -35,7 +35,7 @@ const OurServecisDetails = () => {
               </p>
             </div>
           </Fade>
-          <fade left>
+          <Fade left>
             <div className="department">
               <h3>Quality</h3>
               <p>
@@ -55,7 +55,7 @@ const OurServecisDetails = () => {
                 product maintain its nutritional value.
               </p>
             </div>
-          </fade>
+          </Fade>
           <Fade left>
             <div className="department">
               <h3>Logistics</h3>

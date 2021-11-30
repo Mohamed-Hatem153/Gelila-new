@@ -55,11 +55,11 @@ const ServecisWeOffer = () => {
               <div className="feature">
                 <div className="feature-details">
                   <div className="feature-header">
-                    <h3>Organic Goods</h3>
+                    <h3>Quality Policy</h3>
                     <p>
-                      Our Organic range of fruits and vegetables are produced
-                      without the use of any chemical fertilizer or pesticides
-                      which makes them 100% organic.
+                      We strive to achieve the latest international
+                      food standards,thus being a frontrunner and a role model
+                      in the arena of quality and hygiene.
                     </p>
                   </div>
                   <div className="feature-image">
@@ -92,8 +92,8 @@ const ServecisWeOffer = () => {
                     <h3>100% Natural</h3>
                     <p>
                       We feel proud to say that all our products are completely
-                      natural without the use of any preservatives, hydrogenated
-                      fats, colors or flavors.
+                      natural without the use of any preservatives, colors or
+                      flavors.
                     </p>
                   </div>
                   <div className="feature-image">
