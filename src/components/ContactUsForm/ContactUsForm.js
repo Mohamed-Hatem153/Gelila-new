@@ -2,6 +2,10 @@ import React from "react";
 import "./ContactUsForm.css";
 import leaf from "../../Assets/images/leaf.png";
 import Zoom from "react-reveal/Zoom";
+import linkedin from '../../Assets/images/linkedin (2).png'
+import facebook from '../../Assets/images/facebook.png'
+import instagram from '../../Assets/images/instagram.png'
+import email from '../../Assets/images/mail4.png'
 
 const ContactUsForm = () => {
   return (
@@ -22,16 +26,16 @@ const ContactUsForm = () => {
             <h2>CONTACT</h2>
             <div className="links">
               <div className="link">
-                <a><img src="https://i.postimg.cc/m2mg2Hjm/linkedin.png" alt="linkedin" /></a>
+                <a href="https://www.linkedin.com/company/gelila-eg/mycompany/"><img src={linkedin} alt="linkedin" /></a>
               </div>
               <div className="link">
-                <a><img src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github" /></a>
+                <a href="https://www.facebook.com/Gelila-108309847991503"><img src={facebook} alt="facebook" /></a>
               </div>
               <div className="link">
-                <a><img src="https://i.postimg.cc/W4Znvrry/codepen.png" alt="codepen" /></a>
+                <a href='/'><img src={instagram} alt="instagram" /></a>
               </div>
               <div className="link">
-                <a><img src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email" /></a>
+                <a href="mailto:info@gelila-eg.com"><img src={email} alt="email" /></a>
               </div>
             </div>
           </div>

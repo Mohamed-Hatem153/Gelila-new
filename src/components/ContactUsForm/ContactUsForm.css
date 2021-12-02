@@ -25,7 +25,7 @@
   font-family: var(--primary-font-family);
 }
 .contact-us-form #contact {
-  background-color: #f1592a;;
+  background-color: var(--green-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,7 +112,7 @@
 .contact-us-form .form img {
   width: 45px;
   height: 45px;
-  filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #0006);
+  /* filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #0006); */
   transition: 0.2s;
   user-select: none;
 }
@@ -123,11 +123,12 @@
 
 .contact-us-form .form img:active {
   transform: scale(1.1, 1.1);
-  filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #222) sepia(0.3);
+  /* filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #222) sepia(0.3); */
 }
 
 .contact-us-form .form-item {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .contact-us-form label,
@@ -181,7 +182,7 @@
   border: 1px solid #f1592a;
 }
 .contact-us-form .submit-btn {
-  background-color: #fd917e;
+  background-color: #f1592a;
   filter: drop-shadow(2px 2px 3px #0003);
   color: #fff;
   font-family: "Poppins", sans-serif;
