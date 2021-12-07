@@ -1,7 +1,6 @@
 import lemon1 from "../../Assets/images/OurRealProducts/Lemon1.jpg";
 import lemon2 from "../../Assets/images/OurRealProducts/Lemon2.jpg";
 import lemon4 from "../../Assets/images/OurRealProducts/Lemon4.jpg";
-// import lemon5 from "../../Assets/images/OurRealProducts/Lemon5.jpg";
 import orange from "../../Assets/images/OurRealProducts/Orange.jpg";
 import orange1 from "../../Assets/images/OurRealProducts/Orange1.jpg";
 import orange2 from "../../Assets/images/OurRealProducts/Orange2.jpg";
@@ -27,8 +26,6 @@ import grape5 from "../../Assets/images/OurRealProducts/grape5.jpg";
 import grape6 from "../../Assets/images/OurRealProducts/grape6.jpg";
 import khass from "../../Assets/images/OurRealProducts/khass.jpg";
 import roman1 from "../../Assets/images/OurRealProducts/roman1.jpg";
-import roman2 from "../../Assets/images/OurRealProducts/roman2.jpg";
-import roman3 from "../../Assets/images/OurRealProducts/roman3.jpg";
 import roman4 from "../../Assets/images/OurRealProducts/roman4.jpg";
 import roman5 from "../../Assets/images/OurRealProducts/roman5.jpg";
 import mango2 from "../../Assets/images/OurRealProducts/mango2.jpg";
@@ -124,8 +121,8 @@ export const photos = [
   },
   {
     src: onion7,
-    width: 4,
-    height: 3,
+    width: 2,
+    height: 2,
   },
   {
     src: garlic1,
@@ -181,16 +178,6 @@ export const photos = [
     src: roman1,
     width: 2,
     height: 2,
-  },
-  {
-    src: roman2,
-    width: 2,
-    height: 2,
-  },
-  {
-    src: roman3,
-    width: 3,
-    height: 4,
   },
   {
     src: roman4,

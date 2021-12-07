@@ -59,7 +59,7 @@ const CoreCompetencies = () => {
               <div className="core-text core-text2">
                 <h3>Dedication</h3>
                 <p>
-                  We have been committed to this business for the last 40 years,
+                  We have been committed to this business for the last 35 years,
                   our commitment and dedication is reflected in our high
                   standard product and services on daily basis.
                 </p>

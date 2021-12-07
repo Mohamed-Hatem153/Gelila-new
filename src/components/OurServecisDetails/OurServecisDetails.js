@@ -44,7 +44,7 @@ const OurServecisDetails = () => {
                 fresh fruits and vegetables are greatly influenced by the
                 temperature, relative humidity, and atmospheric composition of
                 their environment. GELILAfollows strict compliance according to
-                the International ISO 2000-2005 and HACCP principles, always
+                the International ISO 22000-2018, BRC and HACCP principles, always
                 being a frontrunner and a role model in the matters of quality
                 and hygiene.
               </p>

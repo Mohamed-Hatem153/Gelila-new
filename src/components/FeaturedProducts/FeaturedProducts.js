@@ -6,33 +6,33 @@ import leaf from "../../Assets/images/leaf.png";
 import "./FeaturedProducts.css";
 import orange from "../../Assets/products/Orange-Navel.png";
 import onionRed from '../../Assets/AllProducts/Onion Red.png'
-import lemon from "../../Assets/products/lemon.png";
-import mandarin from "../../Assets/products/Mandarin.png";
+import mango from '../../Assets/AllProducts/mango.png';
+import garlic from '../../Assets/AllProducts/Garlic.png'
 
 const Featuredproducts = [
   {
     id: 1,
-    name: "Orange",
+    name: "Citrus",
     image: orange,
-    duration: 'From Dec. to Feb.',
+    duration: 'From Oct. to Mar.',
     details:
-      "Orange is a good Fruit. Helps keep blood pressure under check and lowers cholestrol.",
+      "This citrus fruits contains Vitamins A, B, and a high level of Vitamin C has multiple health benefits, from reducing the risk of cancer to weight loss.",
   },
   {
     id: 2,
-    name: "Mandarin",
-    image: mandarin,
-    duration: 'From Nov. to Mar.',
+    name: "Mango",
+    image: mango,
+    duration: 'From Apr. to Oct.',
     details:
-      "This citrus fruit contains Vitamins A, B, and a high level of Vitamin C has multiple health benefits, from reducing the risk of cancer to weight loss.",
+      "Mango's with its rich flavor and amazing taste is a perfect refreshing beverage for scorching summer months. It is low in calorie and source of vital nutrients comprising of dietary fiber, vitamins, minerals.",
   },
   {
     id: 3,
-    name: "Lemon (Eureka)",
-    image: lemon,
-    duration: 'From Oct. to Jan.',
+    name: "Garlic",
+    image: garlic,
+    duration: 'From Apr. to Jun.',
     details:
-      "Lemon health benefits includes improving vitamin C levels, decreasing blood cholesterol, boosting liver function, boosting metabolism.",
+      "Garlic is low in calories and rich in vitamin C, vitamin B6 and manganese. It also contains trace amounts of various other nutrients. Garlic supplements help prevent and reduce the severity of common illnesses like the flu and common cold.",
   },
   {
     id: 4,

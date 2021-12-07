@@ -141,7 +141,7 @@ class BannerSlider extends Component {
                 className="banner-user-text"
                 animation={{ y: 30, opacity: 0, type: "from", delay: 100 }}
               >
-                Welcom to <br /> gelila import & export
+                Welcom to <br /> gelila for import & export
                 <br />
                 <BtnLink title='About Us'/>
               </TweenOne>
@@ -171,7 +171,7 @@ class BannerSlider extends Component {
                 className="banner-user-text"
                 animation={{ y: 30, opacity: 0, type: "from", delay: 100 }}
               >
-                Welcom to <br /> gelila import & export
+                Welcom to <br /> gelila for import & export
                 <br />
                 <BtnLink title='About Us'/>
               </TweenOne>
@@ -201,7 +201,7 @@ class BannerSlider extends Component {
                 className="banner-user-text"
                 animation={{ y: 30, opacity: 0, type: "from", delay: 100 }}
               >
-                Welcom to <br /> gelila import & export
+                Welcom to <br /> gelila for import & export
                 <br />
                 <BtnLink title='About Us'/>
               </TweenOne>

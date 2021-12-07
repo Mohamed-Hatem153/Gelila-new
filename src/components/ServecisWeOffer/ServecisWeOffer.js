@@ -3,7 +3,7 @@ import leaf from "../../Assets/images/leaf.png";
 import "./ServecisWeOffer.css";
 import Fade from "react-reveal/Fade";
 import featureOne from "../../Assets/images/Webp.net-resizeimage (2).jpg";
-import featureTwo from "../../Assets/images/service-1-img-2.jpg";
+import featureTwo from "../../Assets/images/Webp.net-resizeimage (5).jpg";
 import featureThree from "../../Assets/images/service-1-img-3.jpg";
 import featureFour from "../../Assets/images/Webp.net-resizeimage (3).jpg";
 const ServecisWeOffer = () => {

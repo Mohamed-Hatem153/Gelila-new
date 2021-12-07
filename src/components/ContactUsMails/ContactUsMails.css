@@ -55,3 +55,17 @@
   margin: auto;
   max-height: 100%;
 }
+@media (min-width: 700px) and (max-width: 1130px) {
+  .contact-us-mails .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+}
+@media (max-width: 699px){
+  .contact-us-mails .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+}

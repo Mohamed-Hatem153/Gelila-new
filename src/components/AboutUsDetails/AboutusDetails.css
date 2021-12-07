@@ -201,6 +201,38 @@
   color: #525252;
   padding-top: 20px;
 }
+/* Typing Class */
+/* .typing {
+  color: #333;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 0.15em;
+  border-right: 0.15em solid orangered;
+  animation: typing 3.5s steps(40, end) infinite,
+             cursor-blink 0.75s step-end infinite;
+} */
+
+/* The typing effect for the text */
+/* @keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+} */
+
+/* The cursor  blinking effect */
+/* @keyframes cursor-blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orangered;
+  }
+} */
+
 @media (max-width: 1130px) {
   .about-us-small-text,
   .vision,

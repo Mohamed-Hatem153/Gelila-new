@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { OurAllProducts } from "./OurProducts";
 import { FaEye } from "react-icons/fa";
 import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 import { AiOutlineClose } from "react-icons/ai";
 import leaf from "../../Assets/images/leaf.png";
 
@@ -15,7 +16,7 @@ const Product = () => {
   return (
     <div className="featured-products">
       <div className="container grid">
-        <Fade top>
+        <Zoom>
           <div className="featured-products-title">
             <p>our products</p>
             <h3>vegetables and fruits</h3>
@@ -23,7 +24,7 @@ const Product = () => {
               <img src={leaf} alt="leaf" />
             </div>
           </div>
-        </Fade>
+        </Zoom>
         <div className="our-featured-products">
           <div className="grid">
             {OurAllProducts.map((product) => {

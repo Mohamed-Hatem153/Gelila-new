@@ -17,7 +17,7 @@ const QualityPolicy = () => {
         <Fade bottom>
           <p>
             “GELILA operations are crafted and designed following strict
-            compliance to the International ISO 22000-2005 standards and HACCP
+            compliance to the International ISO 22000-2018, BRC standards and HACCP
             principles. The quality checks are followed and executed by our team
             of experienced quality control professionals, providing a complete
             assurance that our customers receive superior quality produce at the

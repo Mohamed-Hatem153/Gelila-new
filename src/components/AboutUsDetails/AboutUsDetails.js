@@ -19,7 +19,7 @@ const AboutUsDetails = () => {
         </Fade>
         <div className="we-are-gelila">
           <Zoom>
-            <h2>
+            <h2 className='typing'>
               We are <span>GELILA</span>
             </h2>
           </Zoom>
