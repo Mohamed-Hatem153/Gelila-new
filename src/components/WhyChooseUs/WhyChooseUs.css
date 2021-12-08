@@ -24,7 +24,6 @@
   font-size: 2rem;
 }
 .whygelila .whyus {
-  /* padding-top: 0.5rem; */
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -39,14 +38,10 @@
   font-weight: 700;
   letter-spacing: 1.5;
   color: var(--green-color);
-  /* text-decoration: underline; */
-  /* border: 3px dashed var(--green-color);
-  padding: 5px; */
 }
 .whychooseus .grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  /* grid-gap: 10px; */
 }
 .whychooseus .container .grid {
   display: grid;
@@ -57,8 +52,6 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
-  /* max-width: 100%; */
-  /* margin: auto; */
   margin-top: 1rem;
 }
 .whychooseus .whygelila .counter-us .counter-grid {
@@ -77,8 +70,6 @@
   -webkit-transition: all 0.5s ease 0;
   transition: all 0.5s ease 0;
   transition: all 0.5s ease 0s;
-  /* max-width: 300px; */
-  /* margin: auto; */
   margin-bottom: 60px;
   max-height: 24rem;
 }
@@ -132,7 +123,6 @@
 .whychooseus-title .grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  /* grid-gap: 10px; */
 }
 @media (min-width: 800px) and (max-width: 1130px) {
   .whychooseus .whygelila .grid {

@@ -30,20 +30,17 @@
   justify-content: center;
   align-items: center;
 }
-
 .contact-us-form .contact-box {
   width: clamp(100px, 90%, 1000px);
   margin: 80px 50px;
   display: flex;
   flex-wrap: wrap;
 }
-
 .contact-us-form .contact-links,
 .contact-us-form .contact-form-wrapper {
   width: 50%;
   padding: 8% 5% 10% 5%;
 }
-
 .contact-us-form .contact-links {
   background-color: #10302d;
   background: radial-gradient(
@@ -60,34 +57,32 @@
     radial-gradient(circle at 0% 0%, #0a2a27 0 40%, transparent 40.2%), #10302d;
   border-radius: 10px 0 0 10px;
 }
-
 .contact-us-form .contact-form-wrapper {
   background-color: #ffffff8f;
   border-radius: 0 10px 10px 0;
 }
-
 @media only screen and (max-width: 800px) {
   .contact-us-form .contact-links,
   .contact-us-form .contact-form-wrapper {
     width: 100%;
   }
-
   .contact-us-form .contact-links {
     border-radius: 10px 10px 0 0;
   }
-
   .contact-us-form .contact-form-wrapper {
     border-radius: 0 0 10px 10px;
+    padding: 10% 5% 10% 5%;
+  }
+  .contact-us-form .contact-box {
+    margin: 70px 20px;
   }
 }
-
 @media only screen and (max-width: 400px) {
   .contact-us-form .contact-box {
     width: 95%;
     margin: 8% 5%;
   }
 }
-
 .contact-us-form h2 {
   font-family: "Arimo", sans-serif;
   color: #fff;
@@ -96,57 +91,44 @@
   text-align: center;
   transform: scale(0.95, 1);
 }
-
 .contact-us-form .links {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 50px;
 }
-
 .contact-us-form .link {
   margin: 10px;
   cursor: pointer;
 }
-
 .contact-us-form .form img {
   width: 45px;
   height: 45px;
-  /* filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #0006); */
   transition: 0.2s;
   user-select: none;
 }
-
 .contact-us-form .form img:hover {
   transform: scale(1.1, 1.1);
 }
-
 .contact-us-form .form img:active {
   transform: scale(1.1, 1.1);
-  /* filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #222) sepia(0.3); */
 }
-
 .contact-us-form .form-item {
   position: relative;
   margin-bottom: 20px;
 }
-
-.contact-us-form label,
-.contact-us-form input,
-.contact-us-form textarea {
-  font-family: "Poppins", sans-serif;
-}
-
 .contact-us-form label {
   position: absolute;
   top: -20px;
   left: 2%;
-  color: #999;
+  color: #565050;
   font-size: clamp(14px, 1.5vw, 18px);
   pointer-events: none;
   user-select: none;
 }
-
+.contact-us-form label span {
+  color: red;
+}
 .contact-us-form input,
 .contact-us-form textarea {
   width: 100%;
@@ -154,30 +136,13 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-bottom: 20px;
+  margin-top: 10px;
   padding: 12px;
   font-size: clamp(15px, 1.5vw, 18px);
 }
-
-.contact-us-form .name:focus {
-  /* font-size: clamp(13px, 1.3vw, 16px); */
+.contact-us-form input:focus,
+.contact-us-form textarea:focus {
   color: #777;
-  /* top: -20px; */
-  transition: all 0.225s ease;
-  border: 1px solid #f1592a;
-  /* box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%); */
-}
-
-.contact-us-form .email:focus {
-  /* font-size: clamp(13px, 1.3vw, 16px); */
-  color: #777;
-  /* top: -20px; */
-  transition: all 0.225s ease;
-  border: 1px solid #f1592a;
-}
-.contact-us-form .text-aria:focus {
-  /* font-size: clamp(13px, 1.3vw, 16px); */
-  color: #777;
-  /* top: -20px; */
   transition: all 0.225s ease;
   border: 1px solid #f1592a;
 }
@@ -196,31 +161,37 @@
   user-select: none;
   transition: 0.2s;
 }
-
 .contact-us-form .submit-btn:hover {
   transform: scale(1.1, 1.1);
 }
-
 .contact-us-form .submit-btn:active {
   transform: scale(1.1, 1.1);
   filter: sepia(0.5);
 }
-
+input.error {
+  border-color: red;
+}
+textarea.error {
+  border-color: red;
+}
+.input-feedback {
+  color: rgb(235, 54, 54);
+  margin-top: -15px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
 @media only screen and (max-width: 800px) {
   .contact-us-form h2 {
     font-size: clamp(40px, 10vw, 60px);
   }
 }
-
 @media only screen and (max-width: 400px) {
   .contact-us-form h2 {
     font-size: clamp(30px, 12vw, 60px);
   }
-
   .contact-us-form .links {
     padding-top: 30px;
   }
-
   .contact-us-form .form img {
     width: 38px;
     height: 38px;

@@ -138,11 +138,6 @@ const Footer = () => {
                 </a>
               </p>
             </div>
-            {/*<div className="footer-call-to-action">
-              <Link className="footer-call-to-action-button button" to="/about">
-                More about Us
-              </Link>
-            </div>*/}
           </div>
           <div className="footer-social-links">
             <svg

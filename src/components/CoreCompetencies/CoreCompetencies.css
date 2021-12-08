@@ -1,6 +1,4 @@
 .core-competencies {
-  /* background: url('../../Assets/images/core background2.jpg') top center/cover no-repeat; */
-  /* padding: 100px 0; */
   position: relative;
   padding-bottom: 70px;
 }
@@ -58,7 +56,6 @@
   line-height: 22px;
   font-weight: 700;
   margin-top: 0;
-  /* text-align: right; */
   background: url("../../Assets//images/core-title-line.png") bottom left
     no-repeat;
   margin-bottom: 12px;

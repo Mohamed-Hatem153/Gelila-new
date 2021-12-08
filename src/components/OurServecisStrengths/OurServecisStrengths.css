@@ -15,8 +15,7 @@
 .our-strengths .container .strengths-intro {
   background: var(--primary-color);
   padding: 50px 25px;
-  /* border: 2px solid var(--green-color); */
-  /* border-radius: 30px; */
+  border-radius: 20px;
   margin-bottom: 30px;
 }
 .our-strengths .container .strengths-intro p {

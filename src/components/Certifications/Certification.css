@@ -2,7 +2,6 @@
   outline: none;
 }
 .section-bg {
-  /* margin-top: 50px; */
   padding-bottom: 50px;
 }
 .certification-title {
@@ -24,7 +23,6 @@
 .section-bg .container {
   width: 90%;
   margin: auto;
-  /* max-height: 100%; */
 }
 .section-bg .grid {
   display: grid;
@@ -37,7 +35,6 @@
 .slick-slide:focus {
   outline: none;
 }
-
 .slick-img {
   display: block;
   margin: 0 auto;
@@ -47,7 +44,6 @@
   overflow: hidden;
   margin-bottom: 80px;
 }
-
 .brand {
   border-bottom: 1px solid var(--border-color2);
 }

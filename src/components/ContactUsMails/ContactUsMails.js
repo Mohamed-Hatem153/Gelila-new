@@ -65,19 +65,19 @@ const ContactUsMails = () => {
           <h4>Human Resource Manager</h4>
           <ul>
             <li>
-              <FaUserAlt className="contact-icon"/> Mr: his name.
+              <FaUserAlt className="contact-icon"/> Mr: Abdullah Khalifa.
             </li>
             <li>
-              <a className="" href="mailto:who@gelila-eg.com">
+              <a className="" href="mailto:hr.abdallah@gelila-eg.com">
                 <IoMdMail className="contact-icon" />
-                Who@gelila-eg.com
+                hr.abdallah@gelila-eg.com
               </a>
             </li>
           </ul>
           <hr />
         </div>
         <div className="mails-list">
-          <h4>Marketing Operations Manager</h4>
+          <h4>Sales Manager</h4>
           <ul>
             <li>
               <FaUserAlt className="contact-icon"/> Mr: Abd-Elbaset Gelila.
@@ -93,12 +93,12 @@ const ContactUsMails = () => {
           <h4>Supply Chain Manager</h4>
           <ul>
             <li>
-              <FaUserAlt className="contact-icon"/> Mr: Abd-Elbaset Gelila.
+              <FaUserAlt className="contact-icon"/> Mr: Mohamed Soliman.
             </li>
             <li>
-              <a className="" href="mailto:abdelbaset@gelila-eg.com">
+              <a className="" href="mailto:msoliman@gelila-eg.com">
                 <IoMdMail className="contact-icon" />
-                abdelbaset@gelila-eg.com
+                msoliman@gelila-eg.com
               </a>
             </li>
           </ul>
@@ -108,12 +108,12 @@ const ContactUsMails = () => {
           <h4>Export Departments</h4>
           <ul>
             <li>
-              <FaUserAlt className="contact-icon"/> Mr: his name.
+              <FaUserAlt className="contact-icon"/> Mr: Mohamed Ashmawy.
             </li>
             <li>
-              <a className="" href="mailto:who@gelila-eg.com">
+              <a className="" href="mailto:mohamed.ashmawy@gelila-eg.com">
                 <IoMdMail className="contact-icon" />
-                Who@gelila-eg.com
+                mohamed.ashmawy@gelila-eg.com
               </a>
             </li>
           </ul>
@@ -121,12 +121,12 @@ const ContactUsMails = () => {
           <h4>Quality Manager</h4>
           <ul>
             <li>
-              <FaUserAlt className="contact-icon"/> Mr: his name.
+              <FaUserAlt className="contact-icon"/> Mr: Ahmed Mohtady.
             </li>
             <li>
-              <a className="" href="mailto:who@gelila-eg.com">
+              <a className="" href="mailto:ahmed.mohtady@gelila-eg.com">
                 <IoMdMail className="contact-icon" />
-                Who@gelila-eg.com
+                ahmed.mohtady@gelila-eg.com
               </a>
             </li>
           </ul>

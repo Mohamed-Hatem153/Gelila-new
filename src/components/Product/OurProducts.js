@@ -23,6 +23,7 @@ import onionRed from '../../Assets/AllProducts/Onion Red.png'
 import onionWhite from '../../Assets/AllProducts/White-Onions.png'
 import onionGold from '../../Assets/AllProducts/Gold-Onions.png'
 import garlic from '../../Assets/AllProducts/Garlic.png'
+import strawberry from '../../Assets/AllProducts/Strawberry.png'
 
 export const OurAllProducts = [
   {
@@ -107,6 +108,14 @@ export const OurAllProducts = [
   },
   {
     id: uuid(),
+    name: "Strawberry",
+    image: strawberry,
+    duration: 'From Aug. to Dec.',
+    details:
+      "A sweet, red heart-shaped fruit which are delicious in taste. These are low-calorie, fiber-rich fruits packed with vitamins C and K, folate, potassium, manganese, and magnesium.",
+  },
+  {
+    id: uuid(),
     name: "Grapes Green",
     image: grapesGreen,
     duration: 'From May. to Jun.',
@@ -147,6 +156,38 @@ export const OurAllProducts = [
   },
   {
     id: uuid(),
+    name: "Onion Red",
+    image: onionRed,
+    duration: 'From May. to Aug.',
+    details:
+      "Red Onions actually contain less sugar than other types. Red onions are one of the best natural sources of quercetin, a bioflavonoid that is particularly well suited for scavenging free radicals.Aside from its antioxidant properties, quercetin has been found to possess cancer fighting, anti-fungal, anti-bacterial, and anti-inflammatory properties.",
+  },
+  {
+    id: uuid(),
+    name: "Onion White",
+    image: onionWhite,
+    duration: 'From Feb. to May.',
+    details:
+      "White onions are one of the best natural sources of quercetin, a bioflavonoid that is particularly well suited for scavenging free radicals.Aside from its antioxidant properties, quercetin has been found to possess cancer fighting, anti-fungal, anti-bacterial, and anti-inflammatory properties.",
+  },
+  {
+    id: uuid(),
+    name: "Onion Gold",
+    image: onionGold,
+    duration: 'From Feb. to Jul.',
+    details:
+      "Gold onions are one of the best natural sources of quercetin, a bioflavonoid that is particularly well suited for scavenging free radicals.Aside from its antioxidant properties, quercetin has been found to possess cancer fighting, anti-fungal, anti-bacterial, and anti-inflammatory properties.",
+  },
+  {
+    id: uuid(),
+    name: "Garlic",
+    image: garlic,
+    duration: 'From Apr. to Jun.',
+    details:
+      "Garlic is low in calories and rich in vitamin C, vitamin B6 and manganese. It also contains trace amounts of various other nutrients. Garlic supplements help prevent and reduce the severity of common illnesses like the flu and common cold.",
+  },
+  {
+    id: uuid(),
     name: "Potato",
     image: potato,
     duration: 'From Jun. to Apr.',
@@ -184,38 +225,6 @@ export const OurAllProducts = [
     duration: 'From Jun. to Dec.',
     details:
       "Brocolli is high in vitamin C and vitamins A, and K, calcium, folate, and iron. It is also fat free, sodium free, and cholesterol free. It contains dietary fiber that is essential in the fight against obesity, heart disease, hypertension, diabetes, high blood cholesterol, and ulcers.",
-  },
-  {
-    id: uuid(),
-    name: "Onion Red",
-    image: onionRed,
-    duration: 'From May. to Aug.',
-    details:
-      "Red Onions actually contain less sugar than other types. Red onions are one of the best natural sources of quercetin, a bioflavonoid that is particularly well suited for scavenging free radicals.Aside from its antioxidant properties, quercetin has been found to possess cancer fighting, anti-fungal, anti-bacterial, and anti-inflammatory properties.",
-  },
-  {
-    id: uuid(),
-    name: "Onion White",
-    image: onionWhite,
-    duration: 'From Feb. to May.',
-    details:
-      "White onions are one of the best natural sources of quercetin, a bioflavonoid that is particularly well suited for scavenging free radicals.Aside from its antioxidant properties, quercetin has been found to possess cancer fighting, anti-fungal, anti-bacterial, and anti-inflammatory properties.",
-  },
-  {
-    id: uuid(),
-    name: "Onion Gold",
-    image: onionGold,
-    duration: 'From Feb. to Jul.',
-    details:
-      "Gold onions are one of the best natural sources of quercetin, a bioflavonoid that is particularly well suited for scavenging free radicals.Aside from its antioxidant properties, quercetin has been found to possess cancer fighting, anti-fungal, anti-bacterial, and anti-inflammatory properties.",
-  },
-  {
-    id: uuid(),
-    name: "Garlic",
-    image: garlic,
-    duration: 'From Apr. to Jun.',
-    details:
-      "Garlic is low in calories and rich in vitamin C, vitamin B6 and manganese. It also contains trace amounts of various other nutrients. Garlic supplements help prevent and reduce the severity of common illnesses like the flu and common cold.",
   },
 
 ];

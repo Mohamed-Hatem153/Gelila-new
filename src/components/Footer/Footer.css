@@ -4,7 +4,6 @@ Link {
 }
 .pg-footer {
   font-family: var(--primary-font-family);
-  /* margin-top: 60px; */
 }
 h2 {
   padding-bottom: 15px;
@@ -41,7 +40,6 @@ h2 {
   padding-right: 15px;
   width: 100%;
   color: #fff;
-  /* margin-top: 30px; */
 }
 
 .footer-content-column ul li a {
@@ -76,7 +74,6 @@ h2 {
 .footer-menu-list {
   list-style: none;
   margin-bottom: 0;
-  /* margin-top: 10px; */
   padding-left: 0;
 }
 .footer-menu-list li {
