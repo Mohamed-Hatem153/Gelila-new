@@ -1,7 +1,7 @@
 import brandImg1 from '../../Assets/images/certificates/ISO.png';
 import brandImg2 from '../../Assets/images/certificates/global-g-a-p.png';
 import brandImg3 from '../../Assets/images/certificates/Sedex.png';
-import brandImg4 from '../../Assets/images/certificates/brand-1-4.png';
+import brandImg4 from '../../Assets/images/certificates/BRCGS.png';
 
 export const certificatesImages = [
   { id: 1, brandImg: brandImg1 },
