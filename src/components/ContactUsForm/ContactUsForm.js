@@ -49,7 +49,7 @@ const ContactUsForm = () => (
       <div className="container grid">
         <div className="contact-us-title">
           <Zoom>
-            <h3>Git in touch with Us</h3>
+            <h3>Git in touch with us</h3>
             <div>
               <img src={leaf} alt="leaf" />
             </div>

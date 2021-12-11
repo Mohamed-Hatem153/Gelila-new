@@ -15,19 +15,19 @@ const ContactUsMails = () => {
               Ghamr, Portsaid street, Gelila Building.
             </li>
             <li>
-              <a className="" href="tel://00201093900066" target="_self">
+              <a href="tel://00201093900066" target="_self">
                 <FaPhoneAlt className="contact-icon" />
                 +2 010 939 000 66
               </a>
             </li>
             <li>
-              <a className="" href="tel://0020504919100">
+              <a href="tel://0020504919100">
                 <FaFax className="contact-icon" />
                 +2 0504 9191 00
               </a>
             </li>
             <li>
-              <a className="" href="mailto:info@gelila-eg.com">
+              <a href="mailto:info@gelila-eg.com">
                 <IoMdMail className="contact-icon" />
                 info@gelila-eg.com
               </a>
@@ -40,7 +40,7 @@ const ContactUsMails = () => {
               <FaUserAlt className="contact-icon"/> Mr: his name.
             </li>
             <li>
-              <a className="" href="mailto:who@gelila-eg.com">
+              <a href="mailto:who@gelila-eg.com">
                 <IoMdMail className="contact-icon" />
                 Who@gelila-eg.com
               </a>
@@ -55,7 +55,7 @@ const ContactUsMails = () => {
               <FaUserAlt className="contact-icon"/> Eng: Eslam Gelila.
             </li>
             <li>
-              <a className="" href="mailto:ceo@gelila-eg.com">
+              <a href="mailto:ceo@gelila-eg.com">
                 <IoMdMail className="contact-icon" />
                 ceo@gelila-eg.com
               </a>
@@ -68,7 +68,7 @@ const ContactUsMails = () => {
               <FaUserAlt className="contact-icon"/> Mr: Abdullah Khalifa.
             </li>
             <li>
-              <a className="" href="mailto:hr.abdallah@gelila-eg.com">
+              <a href="mailto:hr.abdallah@gelila-eg.com">
                 <IoMdMail className="contact-icon" />
                 hr.abdallah@gelila-eg.com
               </a>
@@ -83,7 +83,7 @@ const ContactUsMails = () => {
               <FaUserAlt className="contact-icon"/> Mr: Abd-Elbaset Gelila.
             </li>
             <li>
-              <a className="" href="mailto:abdelbaset@gelila-eg.com">
+              <a href="mailto:abdelbaset@gelila-eg.com">
                 <IoMdMail className="contact-icon" />
                 abdelbaset@gelila-eg.com
               </a>
@@ -96,7 +96,7 @@ const ContactUsMails = () => {
               <FaUserAlt className="contact-icon"/> Mr: Mohamed Soliman.
             </li>
             <li>
-              <a className="" href="mailto:msoliman@gelila-eg.com">
+              <a href="mailto:msoliman@gelila-eg.com">
                 <IoMdMail className="contact-icon" />
                 msoliman@gelila-eg.com
               </a>
@@ -111,7 +111,7 @@ const ContactUsMails = () => {
               <FaUserAlt className="contact-icon"/> Mr: Mohamed Ashmawy.
             </li>
             <li>
-              <a className="" href="mailto:mohamed.ashmawy@gelila-eg.com">
+              <a href="mailto:mohamed.ashmawy@gelila-eg.com">
                 <IoMdMail className="contact-icon" />
                 mohamed.ashmawy@gelila-eg.com
               </a>
@@ -121,10 +121,10 @@ const ContactUsMails = () => {
           <h4>Quality Manager</h4>
           <ul>
             <li>
-              <FaUserAlt className="contact-icon"/> Mr: Ahmed Mohtady.
+              <FaUserAlt className="contact-icon"/> Eng: Ahmed Mohtady.
             </li>
             <li>
-              <a className="" href="mailto:ahmed.mohtady@gelila-eg.com">
+              <a href="mailto:ahmed.mohtady@gelila-eg.com">
                 <IoMdMail className="contact-icon" />
                 ahmed.mohtady@gelila-eg.com
               </a>
