@@ -5,7 +5,6 @@ import { MdLock } from "react-icons/md";
 import { AiOutlineTeam } from "react-icons/ai";
 import { GiDiploma } from "react-icons/gi";
 import Fade from "react-reveal/Fade";
-import CountUp from "react-countup";
 import "./WhyChooseUs.css";
 
 const WhyChooseUs = () => {
