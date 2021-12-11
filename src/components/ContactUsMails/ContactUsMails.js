@@ -34,15 +34,15 @@ const ContactUsMails = () => {
             </li>
           </ul>
           <hr />
-          <h4>Import Departments</h4>
+          <h4>Planning Manager</h4>
           <ul>
             <li>
-              <FaUserAlt className="contact-icon"/> Mr: his name.
+              <FaUserAlt className="contact-icon"/> Mr: Mahmoud Ali.
             </li>
             <li>
-              <a href="mailto:who@gelila-eg.com">
+              <a href="mailto:Mahmoud.ali@gelila-eg.com">
                 <IoMdMail className="contact-icon" />
-                Who@gelila-eg.com
+                Mahmoud.ali@gelila-eg.com
               </a>
             </li>
           </ul>
@@ -108,12 +108,12 @@ const ContactUsMails = () => {
           <h4>Export Departments</h4>
           <ul>
             <li>
-              <FaUserAlt className="contact-icon"/> Mr: Mohamed Ashmawy.
+              <FaUserAlt className="contact-icon"/> Mr: Mohamed Ebadah.
             </li>
             <li>
-              <a href="mailto:mohamed.ashmawy@gelila-eg.com">
+              <a href="mailto:mohammed.ebadah@gelila-eg.com">
                 <IoMdMail className="contact-icon" />
-                mohamed.ashmawy@gelila-eg.com
+                Mohammed.ebadah@gelila-eg.com
               </a>
             </li>
           </ul>

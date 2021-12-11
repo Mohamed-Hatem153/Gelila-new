@@ -139,6 +139,7 @@
   margin-top: 10px;
   padding: 12px;
   font-size: clamp(15px, 1.5vw, 18px);
+  font-family: var(--primary-font-family);
 }
 .contact-us-form input:focus,
 .contact-us-form textarea:focus {

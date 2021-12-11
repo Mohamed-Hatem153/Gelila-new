@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
                   <img src={leaf} alt="leaf" />
                   <div>
                     <h4 className="counter">
-                      +<CountUp end={30} />
+                      +30
                     </h4>
                     <h3>Countries imported our products</h3>
                   </div>
@@ -50,7 +50,7 @@ const WhyChooseUs = () => {
                   <img src={leaf} alt="leaf" />
                   <div>
                     <h4 className="counter">
-                      +<CountUp end={75000} />
+                      +75000
                     </h4>
                     <h3>Tons of products sold during the last year</h3>
                   </div>

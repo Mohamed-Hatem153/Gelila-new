@@ -6,7 +6,7 @@ import Services from './Pages/Services';
 import Products from './Pages/Products';
 import Footer from './components/Footer/Footer';
 import BackToTop from './components/BackToTop/BackToTop'
-
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import {
   BrowserRouter,
   Routes,
@@ -16,6 +16,7 @@ import {
 function App() {
   return (
     <BrowserRouter>
+        <ScrollToTop />
         <BackToTop />
         <NewNavbar />
         <Routes>
