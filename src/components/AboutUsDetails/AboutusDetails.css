@@ -109,7 +109,7 @@
   height: 395px;
 }
 .about-us-details .mission .mission-image {
-  background: url("../../Assets/images/Mission.jpg") no-repeat;
+  background: url("../../Assets/images/Mission1.jpg") no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -142,7 +142,7 @@
   height: 395px;
 }
 .about-us-details .vision .vision-image {
-  background: url("../../Assets/images/Vision.jpg") no-repeat;
+  background: url("../../Assets/images/Vision1.jpg") no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -175,7 +175,7 @@
   height: 395px;
 }
 .about-us-details .goals .goals-image {
-  background: url("../../Assets/images/Goal.jpg") no-repeat;
+  background: url("../../Assets/images/Goal1.jpg") no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
