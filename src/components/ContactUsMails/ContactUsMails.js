@@ -121,12 +121,12 @@ const ContactUsMails = () => {
           <h4>Quality Manager</h4>
           <ul>
             <li>
-              <FaUserAlt className="contact-icon"/> Eng: Ahmed Mohtady.
+              <FaUserAlt className="contact-icon"/> Dr: Amro Eldesouki.
             </li>
             <li>
-              <a href="mailto:ahmed.mohtady@gelila-eg.com">
+              <a href="mailto:amro.eldesouki@gelila-eg.com">
                 <IoMdMail className="contact-icon" />
-                ahmed.mohtady@gelila-eg.com
+                Amro.eldesouki@gelila-eg.com
               </a>
             </li>
           </ul>
