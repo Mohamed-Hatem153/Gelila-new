@@ -161,4 +161,52 @@
   .flagList__flag_country_egypt {
     width: 1.2rem;
   }
+  .flagList__item_country_egypt {
+    top: 35%;
+    left: 53%;
+  }
+  .flagList__item_country_saudi {
+    top: 40%;
+    left: 58%;
+  }
+  .flagList__item_country_bahrain {
+    top: 49%;
+    left: 58%;
+  }
+  .flagList__item_country_india {
+    top: 35.5%;
+    left: 67%
+  }
+  .flagList__item_country_china {
+    top: 33%;
+    left: 74%;
+  }
+  .flagList__item_country_kenya {
+    top: 51%;
+    left: 56%;
+  }
+  .flagList__item_country_uruguay {
+    top: 73%;
+    left: 28%;
+  }
+  .flagList__item_country_brazil {
+    top: 59%;
+    left: 29%;
+  }
+  .flagList__item_country_canada {
+    top: 18%;
+    left: 16%;
+  }
+  .flagList__item_country_gabon {
+    top: 52%;
+    left: 49%;
+  }
+  .flagList__item_country_usa {
+    top: 32%;
+    left: 17%;
+  }
+  .flagList__item_country_spain {
+    top: 26%;
+    left: 44%;
+  }
 }

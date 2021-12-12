@@ -96,13 +96,13 @@ const GlobalMarketMap = () => {
         </Zoom>
         <Zoom>
           <li className="flagList__item flagList__item_country_bahrain">
+          <span className="flagList__pointer"></span>
             <img
               src={bahrainFlag}
               className="flagList__flag flagList__flag_country_bahrain"
               alt="bahrain flag"
               title="Bahrain"
             />
-            <span className="flagList__pointer"></span>
           </li>
         </Zoom>
         <Zoom>
