@@ -99,6 +99,7 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.3);
   padding-top: 15%;
+  z-index: 99999;
 }
 .pop-up-body {
   background-color: #fff;
