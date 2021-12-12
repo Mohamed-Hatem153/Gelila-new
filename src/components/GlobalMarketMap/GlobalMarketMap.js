@@ -23,6 +23,12 @@ import singaporeFlag from "../../Assets/images/countries flag/singapore.png";
 import sloveniaFlag from "../../Assets/images/countries flag/slovenia.png";
 import ukraineFlag from "../../Assets/images/countries flag/ukraine.png";
 import netherlandsFlag from "../../Assets/images/countries flag/netherlands.png";
+import uruguayFlag from '../../Assets/images/countries flag/uruguay.png'
+import brazilFlag from '../../Assets/images/countries flag/brazil.png'
+import canadaFlag from '../../Assets/images/countries flag/canada.png'
+import gabonFlag from '../../Assets/images/countries flag/gabon.png'
+import usaFlag from '../../Assets/images/countries flag/usa-flag.png'
+import spainFlag from '../../Assets/images/countries flag/spain.png'
 
 const GlobalMarketMap = () => {
   return (
@@ -260,6 +266,72 @@ const GlobalMarketMap = () => {
               className="flagList__flag flagList__flag_country_netherlands"
               alt="netherlands flag"
               title="Netherlands"
+            />
+            <span className="flagList__pointer"></span>
+          </li>
+        </Zoom>
+        <Zoom>
+          <li className="flagList__item flagList__item_country_uruguay">
+            <img
+              src={uruguayFlag}
+              className="flagList__flag flagList__flag_country_uruguay"
+              alt="uruguay flag"
+              title="Uruguay"
+            />
+            <span className="flagList__pointer"></span>
+          </li>
+        </Zoom>
+        <Zoom>
+          <li className="flagList__item flagList__item_country_brazil">
+            <img
+              src={brazilFlag}
+              className="flagList__flag flagList__flag_country_brazil"
+              alt="brazil flag"
+              title="Brazil"
+            />
+            <span className="flagList__pointer"></span>
+          </li>
+        </Zoom>
+        <Zoom>
+          <li className="flagList__item flagList__item_country_canada">
+            <img
+              src={canadaFlag}
+              className="flagList__flag flagList__flag_country_canada"
+              alt="canada flag"
+              title="Canada"
+            />
+            <span className="flagList__pointer"></span>
+          </li>
+        </Zoom>
+        <Zoom>
+          <li className="flagList__item flagList__item_country_gabon">
+            <img
+              src={gabonFlag}
+              className="flagList__flag flagList__flag_country_gabon"
+              alt="gabon flag"
+              title="Gabon"
+            />
+            <span className="flagList__pointer"></span>
+          </li>
+        </Zoom>
+        <Zoom>
+          <li className="flagList__item flagList__item_country_usa">
+            <img
+              src={usaFlag}
+              className="flagList__flag flagList__flag_country_usa"
+              alt="usa flag"
+              title="USA"
+            />
+            <span className="flagList__pointer"></span>
+          </li>
+        </Zoom>
+        <Zoom>
+          <li className="flagList__item flagList__item_country_spain">
+            <img
+              src={spainFlag}
+              className="flagList__flag flagList__flag_country_spain"
+              alt="spain flag"
+              title="Spain"
             />
             <span className="flagList__pointer"></span>
           </li>
