@@ -41,8 +41,7 @@ const ContactUsForm = () => (
       errors,
       isSubmitting,
       handleChange,
-      handleBlur,
-      handleSubmit
+      handleBlur
     } = props;
   return (
     <div className="contact-us-form">
@@ -85,7 +84,7 @@ const ContactUsForm = () => (
                 </div>
               </div>
               <div className="contact-form-wrapper">
-                <form action="https://formspree.io/f/xlezeegy" method="POST" onSubmit={handleSubmit}>
+                <form action="https://formspree.io/f/xlezeegy" method="POST">
                   <div className="form-item">
                     <input
                       id="name"
