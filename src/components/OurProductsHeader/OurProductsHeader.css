@@ -4,7 +4,11 @@
     no-repeat;
   margin-top: 100px;
   height: 70vh;
-  padding-top: 100px;
+  /* padding-top: 100px; */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 .our-products-header h3 {
   font-family: var(--primary-font-family);
@@ -12,12 +16,12 @@
   font-weight: 700;
   font-size: 3.5rem;
 }
-.our-products-header img{
+.our-products-header img {
   width: 100px;
   height: 30px;
 }
 @media (max-width: 1130px) {
-  .our-products-header{
+  .our-products-header {
     background-size: cover;
     height: auto;
   }

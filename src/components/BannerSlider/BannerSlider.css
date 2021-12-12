@@ -27,7 +27,8 @@
   color: var(--primary-color);
 }
 .banner-user-elem .banner-user-text {
-  color: #f1592a;
+  color: #f14624;
+  font-weight: 800;
 }
 @media screen and (min-width: 768px) {
   .banner-user-elem .banner-user-title {
@@ -36,7 +37,7 @@
     font-weight: bold;
   }
   .banner-user-elem .banner-user-title::selection {
-    background-color: #f1592a;
+    background-color: #f14624;
     color: #fff;
   }
 }
@@ -47,7 +48,7 @@
   font-weight: bold;
 }
 .banner-anim-elem .banner-user-text::selection {
-  background-color: #f1592a;
+  background-color: #f14624;
   color: #fff;
 }
 @media screen and (min-width: 768px) {
