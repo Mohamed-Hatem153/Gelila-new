@@ -28,7 +28,7 @@
   @media (max-width: 1130px) {
     .contact-us-header {
       background-size: cover;
-      height: 70vw;
+      height: 70vh;
     }
     .contact-us-header h3 {
       font-size: 2.5rem;
