@@ -159,7 +159,7 @@
   }
   .flagList__item_country_india {
     top: 35.5%;
-    left: 67%
+    left: 67%;
   }
   .flagList__item_country_china {
     top: 33%;
@@ -210,5 +210,87 @@
   }
   .flagList__flag_country_egypt {
     width: 1.2rem;
+  }
+}
+@media (min-width: 1600px) {
+  .flagList__item_country_uruguay {
+    top: 73%;
+    left: 42%;
+  }
+  .flagList__item_country_brazil {
+    top: 59%;
+    left: 41%;
+  }
+  .flagList__item_country_canada {
+    top: 18%;
+    left: 30%;
+  }
+  .flagList__item_country_usa {
+    top: 32%;
+    left: 32%;
+  }
+  .flagList__item_country_spain {
+    top: 29%;
+    left: 47%;
+  }
+  .flagList__item_country_russia {
+    top: 15%;
+    left: 63%;
+  }
+  .flagList__item_country_egypt {
+    top: 39%;
+    left: 52%;
+  }
+  .flagList__item_country_gabon {
+    top: 57%;
+    left: 50%;
+  }
+  .flagList__item_country_saudi {
+    top: 40%;
+    left: 54%;
+  }
+  .flagList__item_country_bahrain {
+    top: 49%;
+    left: 55%;
+  }
+  .flagList__item_country_uae {
+    top: 41%;
+    left: 56%;
+  }
+  .flagList__item_country_india {
+    top: 39.5%;
+    left: 60%;
+  }
+  .flagList__item_country_china {
+    top: 33%;
+    left: 68%;
+  }
+  .flagList__item_country_hongkong {
+    top: 41%;
+    left: 69%;
+  }
+  .flagList__item_country_philippines {
+    top: 48%;
+    left: 71%;
+  }
+  .flagList__item_country_singapore {
+    top: 65%;
+    left: 68%;
+  }
+  .flagList__item_country_kenya {
+    top: 58%;
+    left: 54%;
+  }
+  .flagList__item_country_oman {
+    top: 50%;
+    left: 57%;
+  }
+  .flagList__item_country_seychelles {
+    top: 59%;
+    left: 56%;
+  }
+  .flagList__item_country_mauritius {
+    top: 67%;
+    left: 57%;
   }
 }
