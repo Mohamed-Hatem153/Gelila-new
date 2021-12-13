@@ -329,3 +329,8 @@
     text-shadow: 0 0 15px #ff0000;
   }
 }
+@media (min-width: 1600px) {
+  .logo-nav {
+    width: 55%;
+  }
+}
