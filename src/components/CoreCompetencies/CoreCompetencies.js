@@ -3,7 +3,7 @@ import "./CoreCompetencies.css";
 import leaf from "../../Assets/images/leaf.png";
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
-import gelilacore from "../../Assets/images/core/gelilacore.png";
+import gelilacore from "../../Assets/images/core/gelila.jpg";
 import core1 from "../../Assets/images/core/core-1.png";
 import core2 from "../../Assets/images/core/core-2.png";
 import core3 from "../../Assets/images/core/core-3.png";
