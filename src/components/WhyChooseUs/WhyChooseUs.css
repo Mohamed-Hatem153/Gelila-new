@@ -142,4 +142,10 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
   }
+  .whygelila .whyus p {
+    font-size: 18px;
+  }
+  .whygelila .whyus span {
+    font-size: 25px;
+  }
 }
