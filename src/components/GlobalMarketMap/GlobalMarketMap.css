@@ -144,6 +144,18 @@
   top: 30%;
   left: 46%;
 }
+.flagList__item_country_maldives {
+  top: 57%;
+  left: 65%;
+}
+.flagList__item_country_rwanda {
+  top: 63%;
+  left: 54%;
+}
+.flagList__item_country_uganda {
+  top: 54%;
+  left: 55%;
+}
 @media (max-width: 1200px) {
   .flagList__item_country_egypt {
     top: 35%;
