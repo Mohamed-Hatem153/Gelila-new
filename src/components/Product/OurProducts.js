@@ -5,7 +5,6 @@ import orangeValencia from "../../Assets/AllProducts/Orange-Valencia.png";
 import orangeNavelLate from "../../Assets/AllProducts/Navel-Late-Orange.png";
 import mandarin from "../../Assets/AllProducts/Mandarin.png";
 import grapeFruit from "../../Assets/AllProducts/Grape-Fruit.png";
-import kumquat from '../../Assets/AllProducts/Kumquat.png';
 import mangoAlphonso from "../../Assets/AllProducts/Mango-alphonso.png";
 import mango from '../../Assets/AllProducts/mango.png';
 import lemon from "../../Assets/AllProducts/lemon.png";
@@ -24,6 +23,8 @@ import onionWhite from '../../Assets/AllProducts/White-Onions.png'
 import onionGold from '../../Assets/AllProducts/Gold-Onions.png'
 import garlic from '../../Assets/AllProducts/Garlic.png'
 import strawberry from '../../Assets/AllProducts/Strawberry.png'
+import peache from '../../Assets/AllProducts/Peaches.png'
+import watermelon from '../../Assets/AllProducts/Watermelon.png'
 
 export const OurAllProducts = [
   {
@@ -73,14 +74,6 @@ export const OurAllProducts = [
     duration: 'From Oct. to Feb.',
     details:
       "The grapefruit is a cross between an orange and a pomelo. It provides health benefits for the skin, blood pressure, heart health, and disease prevention. Grapefruit contains high levels of vitamin C. Grapefruits are low in calories but are full of nutrients, and an excellent source of vitamins A and C. Grapefruit decreases the risk of obesity, diabetes, heart diseases.",
-  },
-  {
-    id: uuid(),
-    name: "Kumquat",
-    image: kumquat,
-    duration: 'From Oct. to Feb.',
-    details:
-      "All parts of this citrusy orange fruit are edible including the skin. The skin is slightly bitter, however after you start to chew you will also taste its sweetness making it delightful. Kumquats is an effective anti-inflammatory fruit, good for strengthening immunity.",
   },
   {
     id: uuid(),
@@ -137,6 +130,22 @@ export const OurAllProducts = [
     duration: 'From Jul. to Sep.',
     details:
       "Resveratrol is a key nutrient in grapes that may offer health benefits. Grapes are a good source of fiber, potassium, and a range of vitamins and other minerals.",
+  },
+  {
+    id: uuid(),
+    name: "Peaches",
+    image: peache,
+    duration: 'From Jul. to Sep.',
+    details:
+      "Peaches are fuzzy tasty fruits with valuable source of nutrition that helps your body prevent cancer and protects your heart from diseases.",
+  },
+  {
+    id: uuid(),
+    name: "Watermelon",
+    image: watermelon,
+    duration: 'From Jul. to Sep.',
+    details:
+      "Watermelon is a delicious and refreshing fruit. watermelon is 92% water.The combination of water and fiber means you're eating a good volume of food without a lot of calories.",
   },
   {
     id: uuid(),
