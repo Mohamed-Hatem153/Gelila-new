@@ -58,9 +58,9 @@ const ServecisWeOffer = () => {
                   <div className="feature-header">
                     <h3>Quality Policy</h3>
                     <p>
-                      We strive to achieve the latest international
-                      food standards,thus being a frontrunner and a role model
-                      in the arena of quality and hygiene.
+                      We strive to achieve the latest international food
+                      standards,thus being a frontrunner and a role model in the
+                      arena of quality and hygiene.
                     </p>
                   </div>
                   <div className="feature-image">
