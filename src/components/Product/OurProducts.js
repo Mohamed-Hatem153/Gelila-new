@@ -135,7 +135,7 @@ export const OurAllProducts = [
     id: uuid(),
     name: "Peaches",
     image: peache,
-    duration: 'From Jul. to Sep.',
+    duration: 'From May. to Jul.',
     details:
       "Peaches are fuzzy tasty fruits with valuable source of nutrition that helps your body prevent cancer and protects your heart from diseases.",
   },
