@@ -109,7 +109,7 @@ export const OurAllProducts = [
   },
   {
     id: uuid(),
-    name: "Grapes Green",
+    name: "Green Grapes",
     image: grapesGreen,
     duration: 'From May. to Jun.',
     details:
@@ -117,7 +117,7 @@ export const OurAllProducts = [
   },
   {
     id: uuid(),
-    name: "Grapes Black",
+    name: "Black Grapes",
     image: grapesBlack,
     duration: 'From Jul. to Aug.',
     details:
@@ -125,7 +125,7 @@ export const OurAllProducts = [
   },
   {
     id: uuid(),
-    name: "Grapes Red",
+    name: "Red Grapes",
     image: grapesRed,
     duration: 'From Jul. to Sep.',
     details:

@@ -91,7 +91,7 @@ const FeaturedProducts = () => {
                 <div className="pop-up-content">
                   {popupContent.map((pop) => {
                     return (
-                      <div className="pop-up-card">
+                      <div className="pop-up-card" key={pop.id}>
                         <div className="pop-up-details">
                           <h2>100% fresh. Sourced from Egypt.</h2>
                           <h3>Benefits:</h3>
