@@ -2,6 +2,7 @@ import React from "react";
 import leaf from "../../Assets/images/leaf.png";
 import "./ServecisWeOffer.css";
 import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 import featureOne from "../../Assets/images/Webp.net-resizeimage (2).jpg";
 import featureTwo from "../../Assets/images/Webp.net-resizeimage (5).jpg";
 import featureThree from "../../Assets/images/service-1-img-3.jpg";
@@ -11,7 +12,7 @@ const ServecisWeOffer = () => {
   return (
     <div className="services-we-offer">
       <div className="container grid">
-        <Fade left>
+        <Zoom>
           <div className="servecis-title">
             <p>who we are</p>
             <h3>Features of our products</h3>
@@ -19,7 +20,7 @@ const ServecisWeOffer = () => {
               <img src={leaf} alt="leaf" />
             </div>
           </div>
-        </Fade>
+        </Zoom>
         <div className="our-features">
           <div className="who-us">
             <Fade top>

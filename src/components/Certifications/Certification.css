@@ -23,6 +23,7 @@
 .section-bg .container {
   width: 90%;
   margin: auto;
+  overflow: hidden;
 }
 .section-bg .grid {
   display: grid;

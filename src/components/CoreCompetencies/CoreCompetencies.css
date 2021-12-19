@@ -16,6 +16,7 @@
   width: 90%;
   margin: auto;
   max-height: 100%;
+  overflow: hidden;
 }
 .core-competencies-title {
   text-align: center;
@@ -33,12 +34,15 @@
   font-weight: 700;
   font-size: 2rem;
 }
+.core-competencies .grid .grid1 , .core-competencies .grid .grid2{
+  margin: auto;
+}
 .Competency {
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .core-text {

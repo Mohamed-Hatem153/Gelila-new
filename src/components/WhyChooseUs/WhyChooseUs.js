@@ -5,13 +5,14 @@ import { MdLock } from "react-icons/md";
 import { AiOutlineTeam } from "react-icons/ai";
 import { GiDiploma } from "react-icons/gi";
 import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 import "./WhyChooseUs.css";
 
 const WhyChooseUs = () => {
   return (
     <div className="whychooseus">
       <div className="container grid">
-        <Fade left>
+        <Zoom>
           <div className="whychooseus-title">
             <p>we are gelila</p>
             <h3>why choose gelila.?</h3>
@@ -19,7 +20,7 @@ const WhyChooseUs = () => {
               <img src={leaf} alt="leaf" />
             </div>
           </div>
-        </Fade>
+        </Zoom>
         <div className="whygelila grid">
           <div className="whyus">
             <Fade top>
@@ -72,7 +73,7 @@ const WhyChooseUs = () => {
                 </p>
               </div>
             </Fade>
-            <Fade top>
+            <Fade left>
               <div className="item">
                 <span className="icon">
                   <MdLock />
@@ -84,7 +85,7 @@ const WhyChooseUs = () => {
                 </p>
               </div>
             </Fade>
-            <Fade bottom>
+            <Fade right>
               <div className="item">
                 <span className="icon">
                   <AiOutlineTeam />

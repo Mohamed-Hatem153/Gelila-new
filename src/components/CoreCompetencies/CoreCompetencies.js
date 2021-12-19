@@ -15,7 +15,7 @@ const CoreCompetencies = () => {
   return (
     <div className="core-competencies">
       <div className="container grid">
-      <Fade left>
+      <Zoom>
         <div className="core-competencies-title">
           <p>what we do</p>
           <h3>Our Core Competencies</h3>
@@ -23,7 +23,7 @@ const CoreCompetencies = () => {
             <img src={leaf} alt="leaf" />
           </div>
         </div>
-        </Fade>
+        </Zoom>
         <div className="grid">
           <div className="grid1">
           <Fade top>

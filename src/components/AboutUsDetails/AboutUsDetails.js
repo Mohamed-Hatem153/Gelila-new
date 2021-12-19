@@ -8,7 +8,7 @@ const AboutUsDetails = () => {
   return (
     <div className="about-us-details">
       <div className="grid">
-        <Fade left>
+        <Zoom>
           <div className="about-us-details-title">
             <p>who we are</p>
             <h3>our story</h3>
@@ -16,26 +16,28 @@ const AboutUsDetails = () => {
               <img src={leaf} alt="leaf" />
             </div>
           </div>
-        </Fade>
+        </Zoom>
         <div className="we-are-gelila">
           <Zoom>
-            <h2 className='typing'>
+            <h2 className="typing">
               We are <span>GELILA</span>
             </h2>
           </Zoom>
-          <p>
-            “<span>Gelila</span> is a leading Egyptian company exporting fresh
-            produce all over the world. The company was founded in 1985 through
-            the vision of Mr. Fahmy Gelila who aspired to export the highest
-            quality Egyptian produce to the world. The company has seen
-            tremendous growth in the past few years which allowed them to
-            construct a state-of-the-art Packing house in Sadat Industrial city
-            which will further improve the packing capabilities and quality of
-            the company’s products. The company prides itself in delivering high
-            quality products through rigorous processes and workflows that
-            result in vegetables and fruits with delicious taste and world-class
-            appearance”
-          </p>
+          <Fade left>
+            <p>
+              “<span>Gelila</span> is a leading Egyptian company exporting fresh
+              produce all over the world. The company was founded in 1985
+              through the vision of Mr. Fahmy Gelila who aspired to export the
+              highest quality Egyptian produce to the world. The company has
+              seen tremendous growth in the past few years which allowed them to
+              construct a state-of-the-art Packing house in Sadat Industrial
+              city which will further improve the packing capabilities and
+              quality of the company’s products. The company prides itself in
+              delivering high quality products through rigorous processes and
+              workflows that result in vegetables and fruits with delicious
+              taste and world-class appearance”
+            </p>
+          </Fade>
         </div>
         <div className="about-us-small-text">
           <Zoom>

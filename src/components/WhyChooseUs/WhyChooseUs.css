@@ -6,6 +6,7 @@
   width: 90%;
   margin: auto;
   max-height: 100%;
+  overflow: hidden;
 }
 .whychooseus-title {
   text-align: center;

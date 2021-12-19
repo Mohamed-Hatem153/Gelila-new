@@ -1,6 +1,7 @@
 import React, { useState} from "react";
 import { FaEye } from "react-icons/fa";
 import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 import { AiOutlineClose } from "react-icons/ai";
 import leaf from "../../Assets/images/leaf.png";
 import "./FeaturedProducts.css";
@@ -54,6 +55,7 @@ const FeaturedProducts = () => {
   return (
     <div className="featured-products">
       <div className="container grid">
+      <Zoom>
         <div className="featured-products-title">
           <p>our products</p>
           <h3>featured products</h3>
@@ -61,6 +63,7 @@ const FeaturedProducts = () => {
             <img src={leaf} alt="leaf" />
           </div>
         </div>
+        </Zoom>
         <div className="our-featured-products">
           <div className="grid">
             {Featuredproducts.map((product) => {
