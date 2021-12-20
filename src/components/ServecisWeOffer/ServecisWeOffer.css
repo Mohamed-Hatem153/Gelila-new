@@ -52,7 +52,7 @@
 }
 .feature .feature-details {
   background-color: var(--white-color);
-  max-width: 275px;
+  max-width: 95%;
   margin: 0px auto;
   border-radius: 0.3rem;
   overflow: hidden;
