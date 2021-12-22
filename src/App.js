@@ -7,6 +7,7 @@ import Products from './Pages/Products';
 import Footer from './components/Footer/Footer';
 import BackToTop from './components/BackToTop/BackToTop'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import NotFound from './components/ErrorMessage/ErrorMessage'
 import {
   BrowserRouter,
   Routes,
@@ -25,6 +26,7 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/services' element={<Services/>}/>
           <Route path='/products' element={<Products/>} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
